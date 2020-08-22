@@ -20,7 +20,16 @@ Route::get('/', function () {
 Route::get('/about-us', function () {
     return view('about');
 });
+Route::get('/invest-with-us', function () {
+    return view('about');
+});
+Route::get('/why-invest', function () {
+    return view('whyInvest');
+});
 
+Route::get('/contact-us', function () {
+    return view('contact');
+});
 
 Auth::routes();
 
