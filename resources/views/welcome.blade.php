@@ -887,29 +887,44 @@
 
 <!-- Team #1
 ============================================= -->
-<section id="team1" class="team team-1 pb-20">
+<!-- Bitcoin Price Chart Widget
+============================================= -->
+<section id="BitcoinWidget" class="xchange-rate">
     <div class="container">
         <div class="row clearfix">
             <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
                 <div class="heading heading-1 mb-50 text--center">
-                    <p class="heading--subtitle">Research Papers</p>
-                    <h2 class="heading--title">Our Projects</h2>
-                    <p class="heading--desc mb-0">
-                        We monitor the spectrum of available cryptocurrencies
-                        and alert our users to market moving events as and when
-                        it happens.
-                    </p>
+                    <p class="heading--subtitle">Realtime Charts</p>
+                    <h2 class="heading--title">Bitcoin Ecosystem</h2>
+                    <p class="heading--desc mb-0">We monitor the spectrum of available cryptocurrencies and alert our users to market moving events as and when it happens.</p>
                 </div>
             </div>
             <!-- .col-lg-6 end -->
         </div>
+        <!-- .row end -->
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <div class="mb-50">
+                    <div class="btcwdgt-chart"></div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <div class="mb-50">
+                    <div class="btcwdgt-chart" bw-theme="light"></div>
+                </div>
+            </div>
+        </div>
 
-        <script src="https://cdn.jsdelivr.net/gh/coinponent/coinponent@1.2.6/dist/coinponent.js"></script>
-
-        <coin-ponent dark-mode no-refresh border-radius="25"></coin-ponent>
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 text-center wow fadeInUp" data-wow-delay="100ms">
+                <a href="#" class="btn btn--primary btn--rounded">Market Data</a>
+            </div>
+        </div>
+        <!-- .row end -->
     </div>
     <!-- .container end -->
 </section>
+<!-- #BitcoinWidget end -->
 <!-- #team1 end -->
 
 <!-- Skills #1
