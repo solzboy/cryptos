@@ -113,7 +113,7 @@
                                 <!-- li end -->
 
                                 <!-- Pages Menu -->
-                                <li class="active">
+                                <li class="">
                                     <a href="/about-us" class="menu-item"
                                         >About us</a
                                     >
@@ -147,7 +147,7 @@
                                 </li>
                                 <!-- li end -->
                                 <!-- Studies Menu-->
-                                <li class="active">
+                                <li class="">
                                     <a href="/plans" class="menu-item">Plans</a>
                                 </li>
                                 <!-- li end -->

@@ -888,21 +888,23 @@
 <section id="team1" class="team team-1 pb-20">
     <div class="container">
         <div class="row clearfix">
-            <div
-                class="col-sm-12 col-md-12 col-lg-6 wow fadeInLeft"
-                data-wow-delay="100ms"
-            >
-                <div class="heading heading-1">
-                    <p class="heading--subtitle">What We Offer?!!</p>
-                    <h2 class="heading--title medium">
-                        Useful Process, Happy Clients & Effective Marketing.
-                    </h2>
+            <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+                <div class="heading heading-1 mb-50 text--center">
+                    <p class="heading--subtitle">Research Papers</p>
+                    <h2 class="heading--title">Our Projects</h2>
+                    <p class="heading--desc mb-0">
+                        We monitor the spectrum of available cryptocurrencies
+                        and alert our users to market moving events as and when
+                        it happens.
+                    </p>
                 </div>
             </div>
+            <!-- .col-lg-6 end -->
         </div>
 
         <script src="https://cdn.jsdelivr.net/gh/coinponent/coinponent@1.2.6/dist/coinponent.js"></script>
-        <coin-ponent></coin-ponent>
+
+        <coin-ponent dark-mode no-refresh border-radius="25"></coin-ponent>
     </div>
     <!-- .container end -->
 </section>
