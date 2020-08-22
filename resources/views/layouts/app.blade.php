@@ -129,9 +129,7 @@
                                     >
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <a href="/why-invest"
-                                                >why invest</a
-                                            >
+                                            <a href="/why-invest">why invest</a>
                                         </li>
                                         <li>
                                             <a href="/invest-with-us"
@@ -147,10 +145,11 @@
                                 </li>
                                 <!-- li end -->
                                 <li class="">
-                                    <a href="/contact-us" class="menu-item">Contact Us</a>
+                                    <a href="/contact-us" class="menu-item"
+                                        >Contact Us</a
+                                    >
                                 </li>
                                 <!-- Features Menu-->
-                             </li>
                             </ul>
                             <div class="module-container">
                                 <!-- Module Consultation  -->
