@@ -1,4 +1,6 @@
-@extends('layouts/app') @section('title', 'Home - ') @section('content')
+@extends('layouts/app') @section('title', 'Home - ') 
+
+@section('content')
 
 <!-- Hero Section  
 ====================================== -->
