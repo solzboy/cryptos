@@ -391,9 +391,12 @@
 
         <!-- Footer Scripts
 ============================================= -->
-        <script src="assets/js/jquery-3.3.1.min.js"></script>
-        <script src="assets/js/plugins.js"></script>
-        <script src="assets/js/functions.js"></script>
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="assets/js/plugins.js"></script>
+<script src="assets/js/bitcoinPriceWidgets.js"></script>
+<script src="assets/js/bitcoinPrice.js"></script>
+<script src="assets/js/bitcoinTracker.js"></script>
+<script src="assets/js/functions.js"></script>
         <!-- RS5.0 Core JS Files -->
         <script src="assets/revolution/js/jquery.themepunch.tools.min838f.js?rev=5.0"></script>
         <script src="assets/revolution/js/jquery.themepunch.revolution.min838f.js?rev=5.0"></script>
