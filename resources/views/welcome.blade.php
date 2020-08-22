@@ -647,7 +647,7 @@
 ============================================= -->
 <!-- Bitcoin Price Chart Widget
 ============================================= -->
-<section id="BitcoinWidget" class="xchange-rate">
+<section id="BitcoinWidget" class="xchange-rate" style="padding-bottom: 1px">
     <div class="container">
         <div class="row clearfix">
             <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
