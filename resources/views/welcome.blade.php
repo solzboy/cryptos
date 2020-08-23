@@ -87,13 +87,13 @@
                         <div class="slide-action">
                             <a
                                 class="btn btn--primary btn--rounded mr-30"
-                                href="#"
+                                href="/register"
                                 >Join Us</a
                             >
                             <a
                                 class="btn btn--white btn--bordered btn--rounded"
-                                href="#"
-                                >Our Services</a
+                                href="/login"
+                                >Login</a
                             >
                         </div>
                     </div>

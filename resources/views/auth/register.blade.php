@@ -10,12 +10,12 @@
             <div class="col-sm-12 col-md-12 col-lg-12">
                 <div class="title title-6 text-center">
                     <div class="title--heading">
-                        <h1>Login</h1>
+                        <h1>Register</h1>
                     </div>
                     <div class="clearfix"></div>
                     <ol class="breadcrumb">
                         <li><a href="/">Home</a></li>
-                        <li class="active">Login</li>
+                        <li class="active">Register</li>
                     </ol>
                 </div><!-- .title end -->
             </div><!-- .col-lg-12 end -->
@@ -89,6 +89,11 @@
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('Register') }}
                                 </button>
+                            </div>
+                        </div>
+                        <div class="form-group row mb-0">
+                            <div class="col-md-8 offset-md-4">
+                                <p>Already have an account?<a href="/login">Login</a> </p>
                             </div>
                         </div>
                     </form>

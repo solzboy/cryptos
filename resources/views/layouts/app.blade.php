@@ -157,7 +157,7 @@
                                     class="module module-consultation pull-left"
                                 >
                                     <a
-                                        href="page-consultation.html"
+                                        href="/register"
                                         class="btn btn--white btn--bordered btn--rounded"
                                         >Get Started</a
                                     >
