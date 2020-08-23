@@ -20,23 +20,20 @@ Route::get('/', function () {
 Route::get('/about-us', function () {
     return view('about');
 });
-Route::get('/invest-with-us', function () {
-    return view('about');
-});
+
 Route::get('/why-invest', function () {
     return view('whyInvest');
 });
 
-<<<<<<< HEAD
 Route::get('/plans', function () {
     return view('plans');
 });
 
-=======
+
 Route::get('/contact-us', function () {
     return view('contact');
 });
->>>>>>> b1602c6f4436bec74b082bd57e394eea8e2b2294
+
 
 Auth::routes();
 
