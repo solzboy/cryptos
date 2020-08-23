@@ -234,13 +234,58 @@
             <!-- .pricing-table End -->   
 </section>
 
-<section class="bg-green">
-    <div class="row">
-        <div>
-        
-        </div>
-    </div>
+<section class=" mb-4 p-5 bg-green">
+    <div class="row text-center p-5">
+              
+                <div class="col-12 p-5">
+                    <h1 class="text-white">Why choose Blue Chips Network <br> Investment plans?</h1>
+                    <p class="text-white">Exclusive benefits</p>
+                </div>
+            
+                <!-- start item -->
+                <div class="col col-sm-6 col-lg-4">
+                    <h6 class=" mb-5 text-white">We offer great weekly investment profit</h6>  
+                </div>
+                 <!-- end item -->
+
+                 <!-- start item -->
+                <div class="col col-sm-6 col-lg-4">
+                  <h6 class="mb-5 text-white">Earn Axos tokens when you purchase a plan membership</h6>
+                </div>
+                <!-- end item -->
+
+                <!-- start item -->
+                <div class="col col-sm-6 col-lg-4">
+                    <h6 class="mb-5 text-white">Sell your mining rig anytime</h6>
+                </div>
+                <!-- end item -->
+
+                <!-- start item -->
+                <div class="col col-sm-6 col-lg-4">
+                    <h6 class=" mb-5 text-white">No limit investing your cryptocurrency</h6>
+                </div>
+                <!-- end item -->
+
+                <!-- start item -->
+                <div class="col col--sm-6 col--lg-4">
+                    <h6 class=" mb-5 text-white">Earn extra bonus when you use your referral link to refer an investor</h6>
+                </div>
+                <!-- end item -->
+
+                <!-- start item -->
+                <div class="col col-sm-6 col-lg-4">
+                    <h6 class="text-white mb-5">Decrease in cryptocurrency invested do not affect your weekly investment profit</h6>
+                </div>
+                <!-- end item -->
+                </div>
 </section>
+ <!-- TradingView Widget BEGIN -->
+ <div style="width: 100%; height:auto; background-color: #FFFFFF; overflow:hidden; box-sizing: border-box; border: 1px solid #56667F; border-radius: 4px; text-align: right; line-height:14px; block-size:62px; font-size: 12px; box-sizing:content-box; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #111D26;padding:1px;padding: 0px; margin: 0px;">
+                    <div style="height:40px;">
+                        <iframe src="./AxosCrypto_files/widget.html" width="100%" height="36" scrolling="auto" marginwidth="0" marginheight="0" frameborder="0" border="0" style="border:0;margin:0;padding:0;"></iframe>
+                    </div>
+                </div>
+                <!-- TradingView Widget END -->
 
 
 <style>
