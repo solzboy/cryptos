@@ -31,7 +31,7 @@ class HomeController extends Controller
         }
         // if auth is user
         else {
-            return view('user.dashboard');
+            return view('users.dashboard');
         }
     }
 }
