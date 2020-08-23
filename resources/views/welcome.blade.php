@@ -620,10 +620,10 @@
                             </p>
                         </div>
                         <a
-                            href="#"
+                            href="/login"
                             class="btn btn--primary btn--rounded wow fadeInUp"
                             data-wow-delay="100ms"
-                            >Explore All Services</a
+                            >Get Started</a
                         >
                     </div>
                     <!-- .col-lg-12 end -->
