@@ -87,13 +87,13 @@
                         <div class="slide-action">
                             <a
                                 class="btn btn--primary btn--rounded mr-30"
-                                href="#"
+                                href="/register"
                                 >Join Us</a
                             >
                             <a
                                 class="btn btn--white btn--bordered btn--rounded"
-                                href="#"
-                                >Our Services</a
+                                href="/login"
+                                >Login</a
                             >
                         </div>
                     </div>
@@ -620,10 +620,10 @@
                             </p>
                         </div>
                         <a
-                            href="#"
+                            href="/login"
                             class="btn btn--primary btn--rounded wow fadeInUp"
                             data-wow-delay="100ms"
-                            >Explore All Services</a
+                            >Get Started</a
                         >
                     </div>
                     <!-- .col-lg-12 end -->
@@ -640,276 +640,52 @@
 
 <!-- Case 3 Column
 ============================================= -->
-<section
-    id="case"
-    class="case case-standard case-gallery case-3col pt-90 pb-60 bg-gray"
->
+
+<!-- #case end -->
+
+<!-- Team #1
+============================================= -->
+<!-- Bitcoin Price Chart Widget
+============================================= -->
+<section id="BitcoinWidget" class="xchange-rate" style="padding-bottom: 1px">
     <div class="container">
         <div class="row clearfix">
             <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
                 <div class="heading heading-1 mb-50 text--center">
-                    <p class="heading--subtitle">Research Papers</p>
-                    <h2 class="heading--title">Our Projects</h2>
-                    <p class="heading--desc mb-0">
-                        We monitor the spectrum of available cryptocurrencies
-                        and alert our users to market moving events as and when
-                        it happens.
-                    </p>
+                    <p class="heading--subtitle">Realtime Charts</p>
+                    <h2 class="heading--title">Bitcoin Ecosystem</h2>
+                    <p class="heading--desc mb-0">We monitor the spectrum of available cryptocurrencies and alert our users to market moving events as and when it happens.</p>
                 </div>
             </div>
             <!-- .col-lg-6 end -->
         </div>
         <!-- .row end -->
         <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12">
-                <div
-                    class="carousel owl-carousel carousel-dots"
-                    data-slide="3"
-                    data-slide-rs="2"
-                    data-autoplay="false"
-                    data-nav="false"
-                    data-dots="true"
-                    data-space="30"
-                    data-loop="true"
-                    data-speed="800"
-                >
-                    <!-- Case #1 -->
-                    <div class="case-item filter-Cryptocurrency">
-                        <div class="case-item-container">
-                            <div class="case--img">
-                                <img
-                                    src="assets/images/case/3col/1.jpg"
-                                    alt="case Item"
-                                />
-                                <div class="case--hover">
-                                    <div class="case--content">
-                                        <div class="case--inner-content">
-                                            <div class="case--cat">
-                                                <a href="#">Cryptocurrency</a>
-                                            </div>
-                                            <div class="case--title">
-                                                <h4>
-                                                    <a href="#"
-                                                        >Solving Real World
-                                                        Problems With
-                                                        Cryptocurrency</a
-                                                    >
-                                                </h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- .case-content end -->
-                                </div>
-                                <!-- .case-hover end -->
-                            </div>
-                            <!-- .case-img end -->
-                        </div>
-                    </div>
-                    <!-- . case-item end -->
-
-                    <!-- Case #2 -->
-                    <div class="case-item filter-Investment">
-                        <div class="case-item-container">
-                            <div class="case--img">
-                                <img
-                                    src="assets/images/case/3col/2.jpg"
-                                    alt="case Item"
-                                />
-                                <div class="case--hover">
-                                    <div class="case--content">
-                                        <div class="case--inner-content">
-                                            <div class="case--cat">
-                                                <a href="#">Investment</a>
-                                            </div>
-                                            <div class="case--title">
-                                                <h4>
-                                                    <a href="#"
-                                                        >33 Cases:
-                                                        Cryptocurrency Fraud Is
-                                                        on the Rise in Japan</a
-                                                    >
-                                                </h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- .case-content end -->
-                                </div>
-                                <!-- .case-hover end -->
-                            </div>
-                            <!-- .case-img end -->
-                        </div>
-                    </div>
-                    <!-- . case-item end -->
-
-                    <!-- Case #3 -->
-                    <div class="case-item filter-Consulting">
-                        <div class="case-item-container">
-                            <div class="case--img">
-                                <img
-                                    src="assets/images/case/3col/3.jpg"
-                                    alt="case Item"
-                                />
-                                <div class="case--hover">
-                                    <div class="case--content">
-                                        <div class="case--inner-content">
-                                            <div class="case--cat">
-                                                <a href="#">Cryptocurrency</a>
-                                            </div>
-                                            <div class="case--title">
-                                                <h4>
-                                                    <a href="#"
-                                                        >Solving Real World
-                                                        Problems With
-                                                        Cryptocurrency</a
-                                                    >
-                                                </h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- .case-content end -->
-                                </div>
-                                <!-- .case-hover end -->
-                            </div>
-                            <!-- .case-img end -->
-                        </div>
-                    </div>
-                    <!-- . case-item end -->
-
-                    <!-- Case #4 -->
-                    <div class="case-item filter-Investment">
-                        <div class="case-item-container">
-                            <div class="case--img">
-                                <img
-                                    src="assets/images/case/3col/4.jpg"
-                                    alt="case Item"
-                                />
-                                <div class="case--hover">
-                                    <div class="case--content">
-                                        <div class="case--inner-content">
-                                            <div class="case--cat">
-                                                <a href="#">Investment</a>
-                                            </div>
-                                            <div class="case--title">
-                                                <h4>
-                                                    <a href="#"
-                                                        >33 Cases:
-                                                        Cryptocurrency Fraud Is
-                                                        on the Rise in Japan</a
-                                                    >
-                                                </h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- .case-content end -->
-                                </div>
-                                <!-- .case-hover end -->
-                            </div>
-                            <!-- .case-img end -->
-                        </div>
-                    </div>
-                    <!-- . case-item end -->
-
-                    <!-- Case #5 -->
-                    <div class="case-item filter-Bitcoin">
-                        <div class="case-item-container">
-                            <div class="case--img">
-                                <img
-                                    src="assets/images/case/3col/5.jpg"
-                                    alt="case Item"
-                                />
-                                <div class="case--hover">
-                                    <div class="case--content">
-                                        <div class="case--inner-content">
-                                            <div class="case--cat">
-                                                <a href="#">Investment</a>
-                                            </div>
-                                            <div class="case--title">
-                                                <h4>
-                                                    <a href="#"
-                                                        >33 Cases:
-                                                        Cryptocurrency Fraud Is
-                                                        on the Rise in Japan</a
-                                                    >
-                                                </h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- .case-content end -->
-                                </div>
-                                <!-- .case-hover end -->
-                            </div>
-                            <!-- .case-img end -->
-                        </div>
-                    </div>
-                    <!-- . case-item end -->
-
-                    <!-- Case #6 -->
-                    <div class="case-item filter-Mining">
-                        <div class="case-item-container">
-                            <div class="case--img">
-                                <img
-                                    src="assets/images/case/3col/6.jpg"
-                                    alt="case Item"
-                                />
-                                <div class="case--hover">
-                                    <div class="case--content">
-                                        <div class="case--inner-content">
-                                            <div class="case--cat">
-                                                <a href="#">Investment</a>
-                                            </div>
-                                            <div class="case--title">
-                                                <h4>
-                                                    <a href="#"
-                                                        >33 Cases:
-                                                        Cryptocurrency Fraud Is
-                                                        on the Rise in Japan</a
-                                                    >
-                                                </h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- .case-content end -->
-                                </div>
-                                <!-- .case-hover end -->
-                            </div>
-                            <!-- .case-img end -->
-                        </div>
-                    </div>
-                    <!-- . case-item end -->
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <div class="mb-50">
+                    <div class="btcwdgt-chart"></div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <div class="mb-50">
+                    <div class="btcwdgt-chart" bw-theme="light"></div>
                 </div>
             </div>
         </div>
+
+  
         <!-- .row end -->
-    </div>
+    </div><br>
     <!-- .container end -->
+    <div id="top-bar" class="top-bar bitcoin-tracker-dark">
+        <div class="container-fluid pr-0 pl-0">
+            <div class="row clearfix">
+                <div class="topbarBitcoinTracker"></div>
+            </div><!-- .row end -->
+        </div><!-- .container end -->
+    </div><!-- Hero Section  
 </section>
-<!-- #case end -->
-
-<!-- Team #1
-============================================= -->
-<section id="team1" class="team team-1 pb-20">
-    <div class="container">
-        <div class="row clearfix">
-            <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
-                <div class="heading heading-1 mb-50 text--center">
-                    <p class="heading--subtitle">Research Papers</p>
-                    <h2 class="heading--title">Our Projects</h2>
-                    <p class="heading--desc mb-0">
-                        We monitor the spectrum of available cryptocurrencies
-                        and alert our users to market moving events as and when
-                        it happens.
-                    </p>
-                </div>
-            </div>
-            <!-- .col-lg-6 end -->
-        </div>
-
-        <script src="https://cdn.jsdelivr.net/gh/coinponent/coinponent@1.2.6/dist/coinponent.js"></script>
-
-        <coin-ponent dark-mode no-refresh border-radius="25"></coin-ponent>
-    </div>
-    <!-- .container end -->
-</section>
+<!-- #BitcoinWidget end -->
 <!-- #team1 end -->
 
 <!-- Skills #1
