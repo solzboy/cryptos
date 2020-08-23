@@ -21,6 +21,10 @@ Route::get('/about-us', function () {
     return view('about');
 });
 
+Route::get('/plans', function () {
+    return view('plans');
+});
+
 
 Auth::routes();
 

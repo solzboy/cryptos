@@ -18,8 +18,7 @@
                     </div>
                     <div class="clearfix"></div>
                     <ol class="breadcrumb">
-                        <li><a href="index-2.html">Home</a></li>
-                        <li><a href="index-2.html">about</a></li>
+                        <li><a href="/">Home</a></li>
                         <li class="active">about us</li>
                     </ol>
                 </div><!-- .title end -->
