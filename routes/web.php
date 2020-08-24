@@ -29,7 +29,6 @@ Route::get('/plans', function () {
     return view('plans');
 });
 
-
 Route::get('/contact-us', function () {
     return view('contact');
 });
