@@ -89,7 +89,35 @@
 
 <!-- Featured #2
 ============================================= -->
+<!-- OUR TEAM
+============================================= -->
+<section class="d-flex justify-content-center pt-0 mb-0 pb-0">
+    <div class="container-fluid text-center mt-0 pt-0">
+        <div class="row">
+            <div class="col-6 bg-white p-5">
+                <h4 class="display-4 text-secondary font-weight-light">OUR TEAM</h4>
+                <p class="lead text-secondary font-weight-normal lead">The founders of Blue Chips Network are serial entrepreneurs with an extensive background in venture capital, private equity and angel investing.</p>
+                <img src="assets/images/team/grid/6.jpg" alt="" class="card d-flex mx-auto">
+            </div>
+            
+            <div class="col-6 p-5 d-flex my-auto">
+                <div class="text-dark text-left">
+                    
+                    <p >The team has achieved notable successful exits across a diverse number sectors including startups and mid-cap firms. Having successfully structured multiple capital raises, the team attribute their successes to an unrelenting focus on due diligence and apply the same mindset to the group’s digital and technology related investments.</p>
+                    <p >Early bitcoin and blockchain advocates, the founders share a common belief that the current digital revolution presents the most rewarding opportunity that savvy investors have seen for decades.</p>
+                    <p >The group benefits from the founding teams extensive network of service providers, with relationships tried and tested over the years, including legal counsel, custodians and paying agents, listing agents, auditors, and bankers.</p>
+                    <p >The team behind DCV are investment professionals, wealth managers and crypto-enthusiasts.</p>
+                    <p >The operations division comprises of programmers, engineers and technicians with vast knowledge of datacenters, hardware, software and cooling technologies.</p>
+                    <p >Collectively the ops team has developed numerous mining farms in multiple jurisdictions.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
 
+</section>
+<!-- OUR TEAM ENDS
+============================================= -->
 
 <!-- Mission & Vision
 ============================================= -->
@@ -120,33 +148,7 @@
 <!-- Mission & Vision Ends
 ============================================= -->
 
-<!-- OUR TEAM
-============================================= -->
-<section class="border  d-flex justify-content-center pt-0 ">
-    <div class="container-fluid text-center mt-0 pt-0">
-        <div class="row">
-            <div class="col-6 bg-white p-5">
-                <h4 class="display-4 text-secondary font-weight-light">OUR TEAM</h4>
-                <p class="lead text-info font-weight-normal lead">The founders of TCL are serial entrepreneurs with an extensive background in venture capital, private equity and angel investing.</p>
-                <img src="assets/images/team/grid/6.jpg" alt="" class="card d-flex mx-auto">
-            </div>
-            
-            <div class="col-6 p-5">
-                <div class="text-dark text-left">
-                    <p >The team has achieved notable successful exits across a diverse number sectors including startups and mid-cap firms. Having successfully structured multiple capital raises, the team attribute their successes to an unrelenting focus on due diligence and apply the same mindset to the group’s digital and technology related investments.</p>
-                    <p >Early bitcoin and blockchain advocates, the founders share a common belief that the current digital revolution presents the most rewarding opportunity that savvy investors have seen for decades.</p>
-                    <p >The group benefits from the founding teams extensive network of service providers, with relationships tried and tested over the years, including legal counsel, custodians and paying agents, listing agents, auditors, and bankers.</p>
-                    <p >The team behind DCV are investment professionals, wealth managers and crypto-enthusiasts.</p>
-                    <p >The operations division comprises of programmers, engineers and technicians with vast knowledge of datacenters, hardware, software and cooling technologies.</p>
-                    <p >Collectively the ops team has developed numerous mining farms in multiple jurisdictions.</p>
-                </div>
-            </div>
-        </div>
-    </div>
 
-</section>
-<!-- OUR TEAM ENDS
-============================================= -->
 
 <section id="featured2" class="featured featured-2 pb-5">
     <div class="container">
