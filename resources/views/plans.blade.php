@@ -21,7 +21,7 @@
 					<ol class="breadcrumb">
 						<li><a href="/">Home</a></li>
 						<li><a href="about-us">about</a></li>
-						<li class="active">Pricing</li>
+						<li class="active">Plans</li>
 					</ol>
 				</div><!-- .title end -->
 			</div><!-- .col-lg-12 end -->
@@ -43,6 +43,11 @@
 			</div><!-- .col-lg-8 end -->
 		</div><!-- .row end -->
 		<div class="row">
+
+        <div class=" col-sm-12 col-md-12 col-lg-2  mb-5 ">
+				<div class="pricing-panel rounded">
+				</div>
+			</div>
 			<!-- Pricing Packge #1
 			============================================= -->
 			<div class=" col-sm-12 col-md-12 col-lg-4 price-table mb-5 marl-5 ">
@@ -117,11 +122,16 @@
 					<!--  Pricing heading  -->
 				</div>
 			</div>
+            <!-- .pricing-table End -->
+            <div class=" col-sm-12 col-md-12 col-lg-2  mb-5 ">
+				<div class="pricing-panel rounded">
+				</div>
+			</div>
 			<!-- .pricing-table End -->
 
             <!-- Pricing Packge #3
 			============================================= -->
-			<div class=" col-sm-12 col-md-12 col-lg-4 price-table pricing-active mb-5">
+			<div class=" col-sm-12 col-md-12 col-lg-4 price-table pricing-active mt-4 mb-5">
 				<div class="pricing-panel rounded" >
 					<!--  Pricing heading  -->
 					<div class="pricing--heading text--center mb-0">
@@ -279,13 +289,13 @@
                 <!-- end item -->
                 </div>
 </section>
- <!-- TradingView Widget BEGIN -->
- <div style="width: 100%; height:auto; background-color: #FFFFFF; overflow:hidden; box-sizing: border-box; border: 1px solid #56667F; border-radius: 4px; text-align: right; line-height:14px; block-size:62px; font-size: 12px; box-sizing:content-box; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #111D26;padding:1px;padding: 0px; margin: 0px;">
+            <!-- TradingView Widget BEGIN -->
+            <div style="width: 100%; height:auto; background-color: #FFFFFF; overflow:hidden; box-sizing: border-box; border: 1px solid #56667F; border-radius: 4px; text-align: right; line-height:14px; block-size:62px; font-size: 12px; box-sizing:content-box; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #111D26;padding:1px;padding: 0px; margin: 0px;">
                     <div style="height:40px;">
-                        <iframe src="./AxosCrypto_files/widget.html" width="100%" height="36" scrolling="auto" marginwidth="0" marginheight="0" frameborder="0" border="0" style="border:0;margin:0;padding:0;"></iframe>
+                        <iframe src="https://widget.coinlib.io/widget?type=horizontal_v2&theme=light&pref_coin_id=1505&invert_hover=" width="100%" height="36" scrolling="auto" marginwidth="0" marginheight="0" frameborder="0" border="0" style="border:0;margin:0;padding:0;"></iframe>
                     </div>
                 </div>
-                <!-- TradingView Widget END -->
+            <!-- TradingView Widget END -->
 
 
 <style>

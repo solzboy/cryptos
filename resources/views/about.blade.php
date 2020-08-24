@@ -5,9 +5,9 @@
 
 <!-- Page Title #1
 ============================================= -->
-<section id="page-title" class="page-title bg-overlay bg-overlay-dark bg-parallax">
-    <div class="bg-section">
-        <img src="assets/images/page-titles/5.jpg" alt="Background" />
+<section id="page-title" class="page-title  bg-overlay bg-overlay-dark bg-green bg-parallax">
+<div class="bg-section ">
+        <img src="assets/images/page-titles/3.jpg" alt="Background" />
     </div>
     <div class="container">
         <div class="row">
@@ -27,50 +27,6 @@
     </div><!-- .container end -->
 </section><!-- #page-title end -->
 
-<!-- Info Cards
-============================================= -->
-<section id="infoCards" class="info-cards">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-4">
-                <div class="info-card">
-                    <div class="info-card-step">01.</div>
-                    <div class="info-card-content">
-                        <h4 class="info-card-subtitle">We are helpers</h4>
-                        <h3 class="info-card-title">Advice and guides</h3>
-                        <p class="info-card-desc">Taking the time to manage your money better can really pay off. It can help you stay on top of your bills and save £1,000s each year.</p>
-                        <a class="info-card-links" href="#"><i class="fa fa-plus"></i>Read More</a>
-                    </div>
-                </div><!-- .info-card end -->
-            </div><!-- .col-lg-4 end -->
-            <div class="col-sm-12 col-md-12 col-lg-4">
-                <div class="info-card">
-                    <div class="info-card-step">02.</div>
-                    <div class="info-card-content">
-                        <h4 class="info-card-subtitle">Quick & smart</h4>
-                        <h3 class="info-card-title">Tools and calculators</h3>
-                        <p class="info-card-desc">Use our Budget planner to keep on top of your spending, use our tool to work out what you have left after paying your most important bills.</p>
-                        <a class="info-card-links" href="#"><i class="fa fa-plus"></i>Read More</a>
-                    </div>
-                </div><!-- .info-card end -->
-            </div><!-- .col-lg-4 end -->
-            <div class="col-sm-12 col-md-12 col-lg-4">
-                <div class="info-card">
-                    <div class="info-card-step">03.</div>
-                    <div class="info-card-content">
-                        <h4 class="info-card-subtitle">Friendly support</h4>
-                        <h3 class="info-card-title">Support in person</h3>
-                        <p class="info-card-desc">Support in person, over the phone and online. Web chat is available from 8am to 8pm or you can give us a call for free and impartial.</p>
-                        <a class="info-card-links" href="#"><i class="fa fa-plus"></i>Read More</a>
-                    </div>
-                </div><!-- .info-card end -->
-            </div><!-- .col-lg-4 end -->
-        </div>
-        <!-- .row end -->
-    </div>
-    <!-- .container end -->
-</section>
-<!-- #infoCards end -->
 
 <!-- Featured #1
 ============================================= -->
@@ -82,7 +38,7 @@
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6 order-2 order-lg-1">
                 <div class="featured-img">
-                    <img src="assets/images/mockups/laptop-mockup.png" alt="Laptop Mockup">
+                    <img src="assets/images/mockups/macbook-gold.png" alt="Laptop Mockup">
                 </div>
             </div><!-- .col-lg-5 end -->
             <div class="col-sm-12 col-md-12 col-lg-5 order-1 order-lg-2">
@@ -133,7 +89,66 @@
 
 <!-- Featured #2
 ============================================= -->
-<section id="featured2" class="featured featured-2 pb-50">
+
+
+<!-- Mission & Vision
+============================================= -->
+<section class="bg-gradient text-white d-flex justify-content-center mv  pb-5 pt-5">
+    <div class="row mt-3 pt-3 pb-3">
+        <div class="col-12 text-center text-white mt-0">
+            <h6 class="hm">Blue Chips Network</h6>
+            <h2 class="text-white display-3">Mission & Vission</h2>
+
+        </div>
+        <div class="container  d-flex mb-0 pb-3 ">
+        <div class="col-md-6   mb-0">
+            <ul >
+                <li class="mb-4">To invest in and contribute value to the digital and technology sectors</li>
+                <li>To pursue a sustainable growth plan in accordance with the Group’s investment mandate</li>
+            </ul>
+        </div>
+        <div class="col-md-6   mb-0">
+            <ul>
+                <li class="mb-4">To be an active participant in the crypto space</li>
+                <li>To be a trusted provider of cryptocurrency and blockchain related investment products</li>
+            </ul>
+        </div>
+    </div>
+        </div>
+        
+</section>
+<!-- Mission & Vision Ends
+============================================= -->
+
+<!-- OUR TEAM
+============================================= -->
+<section class="border  d-flex justify-content-center pt-0 ">
+    <div class="container-fluid text-center mt-0 pt-0">
+        <div class="row">
+            <div class="col-6 bg-white p-5">
+                <h4 class="display-4 text-secondary font-weight-light">OUR TEAM</h4>
+                <p class="lead text-info font-weight-normal lead">The founders of TCL are serial entrepreneurs with an extensive background in venture capital, private equity and angel investing.</p>
+                <img src="assets/images/team/grid/6.jpg" alt="" class="card d-flex mx-auto">
+            </div>
+            
+            <div class="col-6 p-5">
+                <div class="text-dark text-left">
+                    <p >The team has achieved notable successful exits across a diverse number sectors including startups and mid-cap firms. Having successfully structured multiple capital raises, the team attribute their successes to an unrelenting focus on due diligence and apply the same mindset to the group’s digital and technology related investments.</p>
+                    <p >Early bitcoin and blockchain advocates, the founders share a common belief that the current digital revolution presents the most rewarding opportunity that savvy investors have seen for decades.</p>
+                    <p >The group benefits from the founding teams extensive network of service providers, with relationships tried and tested over the years, including legal counsel, custodians and paying agents, listing agents, auditors, and bankers.</p>
+                    <p >The team behind DCV are investment professionals, wealth managers and crypto-enthusiasts.</p>
+                    <p >The operations division comprises of programmers, engineers and technicians with vast knowledge of datacenters, hardware, software and cooling technologies.</p>
+                    <p >Collectively the ops team has developed numerous mining farms in multiple jurisdictions.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!-- OUR TEAM ENDS
+============================================= -->
+
+<section id="featured2" class="featured featured-2 pb-5">
     <div class="container">
         <div class="row">
             <!-- Feature Card #1 -->
@@ -344,14 +359,13 @@
 
 <!-- Blog Grid
 ======================================= -->
-<section id="blog" class="blog blog-grid bg-gray pb-40">
+<section id="blog" class="blog blog-grid bg-gray pb-40 bg-gradient MV">
     <div class="container">
         <div class="row clearfix">
             <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
                 <div class="heading heading-3 mb-50 text--center text--center wow flipInX" data-wow-delay="100ms">
-                    <p class="heading--subtitle">Don’t Miss Latest</p>
-                    <h2 class="heading--title">News & Headlines</h2>
-                    <p class="heading--desc mb-0">Follow our latest news and thoughts which focuses exclusively on investment strategy guide, blockchain tech, crypto-trading and mining.</p>
+                        <h6 class="hm">IN THE NEWS</h6>
+                         <h2 class="text-white display-3">MEDIA ROOM</h2>
                 </div>
             </div>
             <!-- .col-lg-6 end -->
@@ -367,15 +381,15 @@
                         </a>
                     </div>
                     <!-- .entry-img end -->
-                    <div class="entry--content">
-                        <div class="entry--date">Apr 11, 2018</div>
+                    <div class="entry--content bg-green">
+                        <div class="entry--date text-white text-white" >Apr 11, 2018</div>
                         <div class="entry--meta">
                             <a href="#">Crypto News</a><a href="#">Apps</a>
                         </div>
                         <div class="entry--title">
-                            <h4><a href="#">Blockchain-based Mobile Payments Service by Gates</a></h4>
+                            <h4><a class="text-primary" href="#">Blockchain-based Mobile Payments Service by Gates</a></h4>
                         </div>
-                        <div class="entry--bio">
+                        <div class="entry--bio text-white">
                             The Bill and Melinda Gates Foundation are introducing an open-source software to facilitate the creation of payment platforms for developing economies...
                         </div>
                     </div>
@@ -395,15 +409,15 @@
                         </a>
                     </div>
                     <!-- .entry-img end -->
-                    <div class="entry--content">
-                        <div class="entry--date">Apr 12, 2018</div>
+                    <div class="entry--content bg-green">
+                        <div class="entry--date text-white">Apr 12, 2018</div>
                         <div class="entry--meta">
                             <a href="#">Cryptocurrency</a><a href="#">Tech</a>
                         </div>
                         <div class="entry--title">
-                            <h4><a href="#">Governments Throwing Resources at Technology!</a></h4>
+                            <h4><a href="#" class="text-primary">Governments Throwing Resources at Technology!</a></h4>
                         </div>
-                        <div class="entry--bio">
+                        <div class="entry--bio text-white">
                             Despite the almost libertarian premise and a noble goal of complete decentralization, realistically, blockchain technology will not be able to avoid at least some level..
                         </div>
                     </div>
@@ -423,15 +437,15 @@
                         </a>
                     </div>
                     <!-- .entry-img end -->
-                    <div class="entry--content">
-                        <div class="entry--date">Apr 11, 2018</div>
-                        <div class="entry--meta">
+                    <div class="entry--content bg-green ">
+                        <div class="entry--date text-white">Apr 11, 2018</div>
+                        <div class="entry--meta text-white">
                             <a href="#">Bitcoin</a><a href="#">Tech</a>
                         </div>
-                        <div class="entry--title">
-                            <h4><a href="#">Southeast Asian Governments Embrace Blockchain Technology</a></h4>
+                        <div class="entry--title ">
+                            <h4><a href="#" class="text-primary">Southeast Asian Governments Embrace Blockchain Technology</a></h4>
                         </div>
-                        <div class="entry--bio">
+                        <div class="entry--bio text-white">
                             Hong Kong is embracing blockchain technology search for a new business identity and opportunities. The city has a household name in shipping and finance...
                         </div>
                     </div>
@@ -446,4 +460,59 @@
     <!-- .container end -->
 </section>
 <!-- #blog end -->
+
+<style>
+    .bg-green {
+        background-color: #08091B;
+    }
+    .bg-gradient{
+        background-color: #27067B;
+
+        background-image: linear-gradient(to right, #27067B, #1A5ECE);
+    }
+    .mv ul {
+        list-style: none;
+        font-weight: 300;
+        font-size: 15px;
+        color: #a2b4d2;
+    }
+    .mv ul  li::before {
+        content: "\2022";
+        color: #00CCFF;
+        font-weight: bold;
+        line-height: 2;
+        display: inline-block;
+        width:1em;
+        margin-left: -1em;
+    }
+    .mv{
+        font-family: Poppins, Arial, sans-serif;
+        
+        h2{
+            line-height: 1.33;
+        }
+
+        
+       
+    }
+    .hm{
+        position: relative;
+        text-transform: uppercase;
+        color: #7ab9ff;
+        letter-spacing: 0.2em;
+        z-index: 2;
+        font-size: 1.07em;
+        font-family: Poppins, Arial, sans-serif;
+        line-height: 1.33;    
+        font-weight: 100;
+    }
+    .team{
+        line-height: 1.86;
+        font-weight: 300;
+        text-align: justify;
+        font-size: 1em;
+        color: #28384c;
+        font-family: "Poppins", sans-serif;
+    }
+</style>
 @endsection
