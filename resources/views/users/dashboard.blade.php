@@ -53,7 +53,7 @@
                                                   <p class="mb-0">Expense</p>
                                               </div>
                                           </div>
-                                          <a href="#" class="btn btn-primary mt-30 d-block">Invest</a>
+                                          <a href="/users/plans" class="btn btn-primary mt-30 d-block">Invest</a>
                                       </div>
                                   </div>
                               </div>
@@ -69,7 +69,7 @@
                                                   <h4>Bitcoin</h4>
                                               </div>
                                               <div class="mt-150">
-                                                  <h3 class="font-weight-700">$11,753.736</h3>
+                                                  <h3 class="font-weight-700">$11,753.73</h3>
                                                   <p>1 BTC</p>
                                               </div>
                                           </div>
@@ -126,6 +126,92 @@
       </div>						
   </section>
 
+  <section>
+    <div class="col-12">
+        <div class="box">
+            <div class="box-header with-border">						
+                <h4 class="box-title">Lastest Transactions</h4>
+                
+            </div>
+            <div class="box-body p-15">						
+                <div class="table-responsive">
+                    <table id="tickets" class="table mt-0 table-hover no-wrap table-borderless" data-page-size="10">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Ope. by</th>
+                                <th>Cust. Email</th>
+                                <th>Sbuject</th>
+                                <th>Status</th>
+                                <th>Ass. to</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1011</td>
+                                <td>
+                                    <a href="javascript:void(0)">Sophia</a>
+                                </td>
+                                <td>sophia@gmail.com</td>
+                                <td>How to customize the template?</td>
+                                <td><span class="badge badge-warning">New</span> </td>
+                                <td>Elijah</td>
+                                <td>14-10-2018</td>
+                            </tr>
+                            <tr>
+                                <td>1224</td>
+                                <td>
+                                    <a href="javascript:void(0)">William</a>
+                                </td>
+                                <td>william@gmail.com</td>
+                                <td>How to change colors</td>
+                                <td><span class="badge badge-success">Complete</span> </td>
+                                <td>Benjamin</td>
+                                <td>13-10-2018</td>
+                            </tr>
+                            <tr>
+                                <td>1024</td>
+                                <td>
+                                    <a href="javascript:void(0)">Jayden</a>
+                                </td>
+                                <td>jayden@gmail.com</td>
+                                <td>How to set Horizontal nav</td>
+                                <td><span class="badge badge-success">Complete</span> </td>
+                                <td>Andrew</td>
+                                <td>13-10-2018</td>
+                            </tr>
+                            <tr>
+                                <td>2124</td>
+                                <td>
+                                    <a href="javascript:void(0)">Ethan</a>
+                                </td>
+                                <td>ethan@gmail.com</td>
+                                <td>How this will connect with ethan</td>
+                                <td><span class="badge badge-danger">Pending</span> </td>
+                                <td>Andrew</td>
+                                <td>12-10-2018</td>
+                            </tr>
+                           
+                            <tr>
+                                <td>8024</td>
+                                <td>
+                                    <a href="javascript:void(0)">Chloe</a>
+                                </td>
+                                <td>jayden@gmail.com</td>
+                                <td>How to set Horizontal nav</td>
+                                <td><span class="badge badge-success">Complete</span> </td>
+                                <td>Andrew</td>
+                                <td>13-10-2018</td>
+                            </tr>
+                           
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
 
 
       <!-- /.content -->
