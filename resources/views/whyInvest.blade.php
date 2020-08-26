@@ -1,5 +1,5 @@
 
-@extends('layouts/app') @section('title', 'About Us - ') 
+@extends('layouts/app') @section('title', 'Why Inveest - ') 
 
 @section('content')
 
@@ -30,122 +30,43 @@
 
 <!-- Info Cards
 ============================================= -->
-<section id="infoCards" class="info-cards">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-4">
-                <div class="info-card">
-                    <div class="info-card-step">01.</div>
-                    <div class="info-card-content">
-                        <h4 class="info-card-subtitle">We are helpers</h4>
-                        <h3 class="info-card-title">Advice and guides</h3>
-                        <p class="info-card-desc">Taking the time to manage your money better can really pay off. It can help you stay on top of your bills and save £1,000s each year.</p>
-                        <a class="info-card-links" href="#"><i class="fa fa-plus"></i>Read More</a>
-                    </div>
-                </div><!-- .info-card end -->
-            </div><!-- .col-lg-4 end -->
-            <div class="col-sm-12 col-md-12 col-lg-4">
-                <div class="info-card">
-                    <div class="info-card-step">02.</div>
-                    <div class="info-card-content">
-                        <h4 class="info-card-subtitle">Quick & smart</h4>
-                        <h3 class="info-card-title">Tools and calculators</h3>
-                        <p class="info-card-desc">Use our Budget planner to keep on top of your spending, use our tool to work out what you have left after paying your most important bills.</p>
-                        <a class="info-card-links" href="#"><i class="fa fa-plus"></i>Read More</a>
-                    </div>
-                </div><!-- .info-card end -->
-            </div><!-- .col-lg-4 end -->
-            <div class="col-sm-12 col-md-12 col-lg-4">
-                <div class="info-card">
-                    <div class="info-card-step">03.</div>
-                    <div class="info-card-content">
-                        <h4 class="info-card-subtitle">Friendly support</h4>
-                        <h3 class="info-card-title">Support in person</h3>
-                        <p class="info-card-desc">Support in person, over the phone and online. Web chat is available from 8am to 8pm or you can give us a call for free and impartial.</p>
-                        <a class="info-card-links" href="#"><i class="fa fa-plus"></i>Read More</a>
-                    </div>
-                </div><!-- .info-card end -->
-            </div><!-- .col-lg-4 end -->
+<section>
+    <div class="container-fluid  why-in m-0 p-0">
+        <div class="row mx-auto container">
+            <div class="col-md-6 col-sm-12">
+                <h6 class="heading-xs">Why cryptocurrency?</h6>
+                <h2>Why cryptocurrency?</h2>
+                <p class="lead">Cryptocurrency is perhaps the most exciting asset class of the 21st century. A decentralized digital currency that works on the very interesting and likely here-to-stay blockchain technology.</p>
+
+            </div>
+            <div class="col-md-5 col-sm-12 ml-3">
+                <img class="w-95"src="assets/images/icons/Icon_Crypto-Currency.png" alt="Background" />
+            </div>
         </div>
-        <!-- .row end -->
     </div>
-    <!-- .container end -->
+      
 </section>
 <!-- #infoCards end -->
 
 <!-- Featured #1
 ============================================= -->
-<section id="featured1" class="featured featured-1 bg-overlay bg-overlay-dark2 bg-parallax pb-0">
-    <div class="bg-section">
-        <img src="assets/images/background/1.jpg" alt="Background" />
-    </div>
-    <div class="container-fluid pr-0 pl-0">
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-6 order-2 order-lg-1">
-                <div class="featured-img">
-                    <img src="assets/images/mockups/laptop-mockup.png" alt="Laptop Mockup">
-                </div>
-            </div><!-- .col-lg-5 end -->
-            <div class="col-sm-12 col-md-12 col-lg-5 order-1 order-lg-2">
-                <div class="heading heading-6">
-                    <h2 class="heading--title text-white">Take Your First Steps to Becoming a Bitcoiner Today!</h2>
-                    <p class="heading--desc text-gray mb-20">Now you can start trading Bitcoin, Ethereum and many cryptocurrencies fast, easily and safely from where ever you are. With great margin trading leverage and short sell options available with quick deposit & withdrawal capability, you can start trading with us in seconds.</p>
-                    <p class="heading--desc text-gray">Cryptocurrencies have become established investment commodities among major financial institutions, and have even been adopted by countries such as Australia and Japan.</p>
-                </div><!-- .heading end -->
-                <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-4">
-                        <div class="feature-card">
-                            <div class="feature-card-icon">
-                                <img src="assets/images/icons/BitcoinIcon1.png" alt="Bitcoin Icon">
-                            </div>
-                            <div class="feature-card-content">
-                                <h3 class="feature-card-title text-white">Quick Deposits and Withdraws</h3>
-                            </div>
-                        </div>
-                    </div><!-- .col-lg-4 end -->
-                    <div class="col-sm-12 col-md-12 col-lg-4">
-                        <div class="feature-card">
-                            <div class="feature-card-icon">
-                                <img src="assets/images/icons/BitcoinIcon2.png" alt="Bitcoin Icon">
-                            </div>
-                            <div class="feature-card-content">
-                                <h3 class="feature-card-title text-white">Reliable and Smart Platform</h3>
-                            </div>
-                        </div>
-                    </div><!-- .col-lg-4 end -->
-                    <div class="col-sm-12 col-md-12 col-lg-4">
-                        <div class="feature-card">
-                            <div class="feature-card-icon">
-                                <img src="assets/images/icons/BitcoinIcon3.png" alt="Bitcoin Icon">
-                            </div>
-                            <div class="feature-card-content">
-                                <h3 class="feature-card-title text-white">Long and Short Selling</h3>
-                            </div>
-                        </div>
-                    </div><!-- .col-lg-4 end -->
-                </div><!-- .row end -->
-            </div><!-- .col-lg-5 end -->
-        </div>
-        <!-- .row end -->
-    </div>
-    <!-- .container end -->
-</section>
-<!-- #featured1 end -->
 
-<!-- Featured #2
-============================================= -->
-<section id="featured2" class="featured featured-2 pb-50">
+<section id="featured2" class="featured featured-2 pb-5 bg-gradient">
     <div class="container">
-        <div class="row">
+        <div class="row ">
             <!-- Feature Card #1 -->
-            <div class="col-sm-12 col-md-12 col-lg-4">
+            <div class="col-12 text-center text-white mt-0 mb-5">
+                <h2 class="hm">The Advantages of Cryptos</h2>
+                <p class="text-white lead">Cryptocurrency has been called “Money 2.0”. <br> Below, some of the reasons why:</p>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4 ">
                 <div class="feature-card">
                     <div class="feature-card-icon">
-                        <i class="icon-lock"></i>
+                       <img src="/assets/images/icons/Limited.png" class="w-25 "alt="Limited">
                     </div>
-                    <div class="feature-card-content">
-                        <h3 class="feature-card-title">Protection & Security</h3>
-                        <p class="feature-card-desc">Stop loss and take profit orders will help secure your investment. The system will automatically execute trades to realise gains.</p>
+                    <div class="feature-card-content ">
+                        <h3 class="feature-card-title text-white">Limited in quantity</h3>
+                        <p class="feature-card-desc text-white">Limited in quantity – thus sometimes compared to precious metals.</p>
                     </div>
                 </div>
             </div><!-- .col-lg-4 end -->
@@ -153,11 +74,11 @@
             <div class="col-sm-12 col-md-12 col-lg-4">
                 <div class="feature-card">
                     <div class="feature-card-icon">
-                        <i class="icon-search"></i>
+                    <img src="/assets/images/icons/Decentralized.png" class="w-25 "alt="Decentralized">
                     </div>
-                    <div class="feature-card-content">
-                        <h3 class="feature-card-title">Licensed Exchange</h3>
-                        <p class="feature-card-desc">Our customers perform transactions not only in cryptocurrency, but the major world currencies supported by the system.</p>
+                    <div class="feature-card-content ">
+                        <h3 class="feature-card-title text-white">Decentralised</h3>
+                        <p class="feature-card-desc text-white">Users don’t have to put trust in a central authority.</p>
                     </div>
                 </div>
             </div><!-- .col-lg-4 end -->
@@ -165,11 +86,11 @@
             <div class="col-sm-12 col-md-12 col-lg-4">
                 <div class="feature-card">
                     <div class="feature-card-icon">
-                        <i class="icon-puzzle"></i>
+                    <img src="/assets/images/icons/Accessible.png" class="w-25 "alt="Accessible">
                     </div>
                     <div class="feature-card-content">
-                        <h3 class="feature-card-title">Recurring Buys</h3>
-                        <p class="feature-card-desc">Invest in digital currency slowly over time by scheduling buys weekly or monthly, allows a trader to profit from a market move.</p>
+                        <h3 class="feature-card-title text-white">Accessible</h3>
+                        <p class="feature-card-desc text-white">There are approximately 2.2 billion unbanked individuals with access to the Internet or mobile phones.  Cryptocurrencies offer a solution for those without access to traditional exchange systems.</p>
                     </div>
                 </div>
             </div><!-- .col-lg-4 end -->
@@ -177,23 +98,11 @@
             <div class="col-sm-12 col-md-12 col-lg-4">
                 <div class="feature-card">
                     <div class="feature-card-icon">
-                        <i class="icon-recycle"></i>
+                    <img src="/assets/images/icons/Instant-Settlement.png" class="w-25 "alt="Instant-Settlement">
                     </div>
                     <div class="feature-card-content">
-                        <h3 class="feature-card-title">Unlimited Free Transfers</h3>
-                        <p class="feature-card-desc">Send any currency to friends, family members or business associates as many times as you want, 24 hours a day for free.</p>
-                    </div>
-                </div>
-            </div><!-- .col-lg-4 end -->
-            <!-- Feature Card #5 -->
-            <div class="col-sm-12 col-md-12 col-lg-4">
-                <div class="feature-card">
-                    <div class="feature-card-icon">
-                        <i class="icon-layers"></i>
-                    </div>
-                    <div class="feature-card-content">
-                        <h3 class="feature-card-title">Multi Currency Accounts</h3>
-                        <p class="feature-card-desc">Support major currencies: USD, EUR, GBP, and various Cryptocurrencies. Funds exchanged between currencies at market rate.</p>
+                        <h3 class="feature-card-title text-white">Instant settlement</h3>
+                        <p class="feature-card-desc text-white">SEliminates the need for third parties (Lawyers, Notary), delays, and payment of fees in transactions.</p>
                     </div>
                 </div>
             </div><!-- .col-lg-4 end -->
@@ -201,14 +110,27 @@
             <div class="col-sm-12 col-md-12 col-lg-4">
                 <div class="feature-card">
                     <div class="feature-card-icon">
-                        <i class="icon-documents"></i>
+                    <img src="/assets/images/icons/Counterfeaiting-Infeasable.png" class="w-25 "alt="Counterfeaiting-Infeasable">
                     </div>
                     <div class="feature-card-content">
-                        <h3 class="feature-card-title">Blockchain Smart Contracts</h3>
-                        <p class="feature-card-desc">The first thing to know about blockchain smart contracts is they're not contracts, smart, nor necessarily on a blockchain.</p>
+                        <h3 class="feature-card-title text-white">Counterfeiting</h3>
+                        <p class="feature-card-desc text-white">Cryptocurrency is a completely digital product and cannot be counterfeited, unlike fiat currency.</p>
                     </div>
                 </div>
             </div><!-- .col-lg-4 end -->
+             <!-- Feature Card #7 -->
+             <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="feature-card">
+                    <div class="feature-card-icon">
+                    <img src="/assets/images/icons/Icon_Crypto-Bonds.png" class="w-25 "alt="Icon_Crypto-Bonds">
+                    </div>
+                    <div class="feature-card-content">
+                        <h3 class="feature-card-title text-white">Transparent</h3>
+                        <p class="feature-card-desc text-white">Every transaction is recorded and publicly available.</p>
+                    </div>
+                </div>
+            </div><!-- .col-lg-4 end -->
+            
 
         </div>
         <!-- .row end -->
@@ -217,82 +139,56 @@
 </section>
 <!-- #featured2 end -->
 
-<!-- Consultation #1
-============================================= -->
-<section id="consultation" class="consultation consultation-1 pb-0">
-    <div class="bg-section">
-        <img src="assets/images/background/8.jpg" alt="Background" />
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12">
-                <div class="heading heading-2 mb-50">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-12 col-lg-7">
-                            <h2 class="heading--title text-white"><span class="text-theme">Discover</span><span class="text-white"> Thousands of Trading & Investment Opportunities.</span></h2>
-                        </div>
-                    </div><!-- .row end -->
-                    <div class="row">
-                        <div class="col-sm-12 col-md-12 col-lg-6">
-                            <p class="heading--desc">Now you can start trading Bitcoin, Ethereum and many cryptocurrencies fast, easily and safely from where ever you are. With great margin trading leverage and short sell options available with quick deposit & withdrawal capability, you can start trading with us in seconds.</p>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6">
-                            <p class="heading--desc">Cryptocurrencies have become established investment commodities among major financial institutions, and have even been adopted by countries such as Australia and Japan. However, as with any investment there are risks linked to market movements!</p>
-                        </div>
-                    </div><!-- .row end -->
-                </div><!-- .heading end -->
-            </div>
 
-        </div>
-        <!-- .row end -->
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12">
-                <div class="consultation-form mb-30 bg-white text-center">
-                    <div class="consultation--desc">
-                        Request a Consultation
-                    </div>
-                    <form method="post" action="http://localhost/template/niche/cryptify/html/pro/preview/assets/php/contact.php" class="contactForm mb-0">
-                        <div class="row">
-                            <div class="col-sm-12 col-md-12 col-lg-4">
-                                <input type="text" class="form-control" name="consultater-name" id="name" placeholder="Your Name" required="">
-                            </div>
-                            <div class="col-sm-12 col-md-12 col-lg-4">
-                                <input type="email" class="form-control" name="consultater-email" id="email" placeholder="Email">
-                            </div>
-                            <div class="col-sm-12 col-md-12 col-lg-4">
-                                <div class="form-select">
-                                    <i class="fa fa-angle-down"></i>
-                                    <select class="form-control" name="Cryptocurreny" id="Cryptocurreny">
-                                        <option value="Cryptocurrencies">Cryptocurrencies</option>
-                                        <option value="Bitcoin">Bitcoin</option>
-                                        <option value="Litecoin">Litecoin</option>
-                                        <option value="Namecoin">Namecoin</option>
-                                        <option value="Dogecoin">Dogecoin</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-sm-12 col-md-12 col-lg-12">
-                                <textarea class="form-control" name="consultater-message" id="message" rows="2" placeholder="Request Details:"></textarea>
-                            </div>
-                            <div class="col-sm-12 col-md-12 col-lg-12">
-                                <input type="submit" value="Submit Request" name="submit" class="btn btn--primary btn--block">
-                            </div>
-                            <div class="col-sm-12 col-md-12 col-lg-12">
-                                <div class="contact-result"></div>
-                            </div>
-                        </div>
-                        <!-- .row end -->
-                    </form>
-                    <!-- form end -->
-                </div>
-                <!-- .contact-form end -->
+<!-- #featured3 -->
+<section >
+    <div class="container mx-auto  why-in mv  ">
+        <div class="row mx-auto d-flex justify-content-center ">
+            <div class=" col-md-5 col-sm-12 pl-5 ">
+                <img src="assets/images/icons/Icon_Crypto-Mining-286x300.png" class="w-75 pb-5 pl-5" alt="Background" />
             </div>
-            <!-- .col-lg-8 end -->
+            <div class="col-md-7 col-sm-12">
+                <h2 class="text-secondary">Why crypto mining?</h2>
+                <ul class="text-left justify-content-left">
+                    <li>Mining cryptocurrencies has proven to be highly profitable for participants.</li>
+                    <li>Less volatile than investing in particular coins.</li>
+                    <li>nfrastructure can be used to mine different alt coins depending on profitability, allowing for diversification.</li>
+                    <li>More stable way of generating profits.</li>
+                    <li>Lower risk than investing into/trading coins.</li>
+                </ul>
+
+            </div>
         </div>
     </div>
-    <!-- .container end -->
-</section>
-<!-- #consultation end -->
+    </section>
+    <section class="bg-bond pt-5 pb-5 m-0  ">
+    <div class="container mx-auto  why-in mv  ">
+        <div class="row mx-auto d-flex justify-content-center ">
+            <div class=" col-md-5 col-sm-12 pl-5">
+                <img src="assets/images/icons/Icon_Crypto-Bonds.png" class="w-75 pb-5 pl-5" alt="Background" />
+            </div>
+            <div class="col-md-7 col-sm-12">
+                <h2 class="text-secondary">Why Bonds?</h2>
+                <ul class="text-left justify-content-left">
+                    <li>Gain exposure to the sector whilst benefiting from a secure legal framework and familiar asset class.</li>
+                    <li>Earn income in fiat, cryptocurrencies are not currently a widely accepted method of payment.</li>
+                    <li>Fixed return.</li>
+                    <li>Zero volatility.</li>
+                    <li>Tradeable.</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    </section>
+    
+      
+
+
+<!-- #featured3 end -->
+
+
+
 
 <!-- Clients #1
 ============================================= -->
@@ -447,4 +343,96 @@
     <!-- .container end -->
 </section>
 <!-- #blog end -->
+<style>
+    .body{
+        position: relative;
+        text-transform: uppercase;
+        color: #28384c;
+        letter-spacing: 0.2em;
+        z-index: 2;
+        font-family: Poppins, Arial, sans-serif;
+        line-height: 1.33;    
+        font-weight: 200;
+        font-size: 2.7em ;
+       
+    }
+    .why-in img{
+        width:516;
+        height:314;
+        max-width: 516px;
+    
+    }
+    .why-in h2{
+        line-height: 1.33;
+        font-weight: 100;
+        color: #28384c;
+        font-size: 3.3em ;
+}
+    .heading-xs{
+        position: relative;
+        text-transform: uppercase;
+        color:#28384c;
+        letter-spacing: 0.2em;
+        font-weight: 100;
+        font-size: 1.7em ;
+    }
+    .why-in p{
+        font-size: 1.27em;
+        line-height: 1.68;
+        font-weight: 300;
+        box-sizing: border-box;
+        display: block;
+        letter-spacing: 0.1em;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        color:#28384c;;
+    }
+    .mv{
+        font-family: Poppins, Arial, sans-serif;
+        
+    }
+    .mv h2{
+        line-height: 1.33;
+        font-weight: 100;
+        color: #28384c;
+        font-size: 3.3em ;
+    }
+    .bg-gradient{
+        background-color: #0B0C22;
+    }
+    .hm{
+        position: relative;
+        margin-bottom: 25px;
+        z-index: 2;
+        font-size: 2.7em;
+        letter-spacing: -0.01em;
+        color:#CECFD3;
+        line-height: 1.33;   
+        font-weight: 100;
+    }
+    .mv ul {
+        list-style: none;
+        font-weight: 300;
+        font-size: 15px;
+        color: #8284a5;
+    }
+    .mv ul  li::before {
+        content: "\2022";
+        color: #00CCFF;
+        font-weight: bold;
+        line-height: 2;
+        display: inline-block;
+        width:1em;
+        margin-left: -1em;
+    }
+    .mv{
+        font-family: Poppins, Arial, sans-serif;     
+    }
+    .bg-bond{
+        background-color:#F7F7F7;
+    }
+   
+</style>
 @endsection

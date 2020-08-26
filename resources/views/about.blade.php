@@ -34,7 +34,7 @@
     <div class="bg-section">
         <img src="assets/images/background/1.jpg" alt="Background" />
     </div>
-    <div class="container-fluid pr-0 pl-0">
+    <div class="container-fluid pr-0 pl-3">
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6 order-2 order-lg-1">
                 <div class="featured-img">
@@ -94,13 +94,13 @@
 <section class="d-flex justify-content-center pt-0 mb-0 pb-0">
     <div class="container-fluid text-center mt-0 pt-0">
         <div class="row">
-            <div class="col-6 bg-white p-5">
+            <div class="col-sm-12 col-md-12 col-lg-6 bg-white p-5">
                 <h4 class="display-4 text-secondary font-weight-light">OUR TEAM</h4>
                 <p class="lead text-secondary font-weight-normal lead">The founders of Blue Chips Network are serial entrepreneurs with an extensive background in venture capital, private equity and angel investing.</p>
                 <img src="assets/images/team/grid/6.jpg" alt="" class="card d-flex mx-auto">
             </div>
             
-            <div class="col-6 p-5 d-flex my-auto">
+            <div class="col-sm-12 col-md-12 col-lg-6 p-5 d-flex my-auto">
                 <div class="text-dark text-left">
                     
                     <p >The team has achieved notable successful exits across a diverse number sectors including startups and mid-cap firms. Having successfully structured multiple capital raises, the team attribute their successes to an unrelenting focus on due diligence and apply the same mindset to the group’s digital and technology related investments.</p>
@@ -128,14 +128,14 @@
             <h2 class="text-white display-3">Mission & Vission</h2>
 
         </div>
-        <div class="container  d-flex mb-0 pb-3 ">
-        <div class="col-md-6   mb-0">
+        <div class="container  d-flex mb-0 pb-3 pr-5 ">
+        <div class="col-sm-12 col-md-12 col-lg-6  mb-0 mx-auto ">
             <ul >
                 <li class="mb-4">To invest in and contribute value to the digital and technology sectors</li>
                 <li>To pursue a sustainable growth plan in accordance with the Group’s investment mandate</li>
             </ul>
         </div>
-        <div class="col-md-6   mb-0">
+        <div class="col-sm-12 col-md-12 col-lg-6   mb-0">
             <ul>
                 <li class="mb-4">To be an active participant in the crypto space</li>
                 <li>To be a trusted provider of cryptocurrency and blockchain related investment products</li>

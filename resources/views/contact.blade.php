@@ -45,20 +45,20 @@
         </div>
         <form>
             <div class="form-row  d-flex justify-content-center">
-                <div class="form-group col-md-4">
+                <div class="form-group col-md-4 col-sm-12">
                     <input type="text" class="form-control" id="firstName" placeholder="First Name">
                 </div>
-                <div class="form-group col-md-4">
+                <div class="form-group col-md-4 col-sm-12">
                     <input type="text" class="form-control" id="lastName" placeholder="Last Name">
                 </div>
             </div>
-            <div class="form-group container col-md-8  p-0 d-flex justify-content-center">
+            <div class="form-group container col-md-8 col-sm-12  p-0 d-flex justify-content-center">
                 <input type="email" class="form-control " id="email12" placeholder="Email">
             </div>
-            <div class="form-group container col-md-8  p-0 d-flex justify-content-center">
+            <div class="form-group container col-md-8 col-sm-12 p-0 d-flex justify-content-center">
                 <textarea type="email" class="form-control " id="text-area"  placeholder="Comment"></textarea>  
             </div>
-            <div class="form-group container col-md-8  p-0 d-flex justify-content-center">
+            <div class="form-group container col-md-8 col-sm-12 p-0 d-flex justify-content-center">
                 <input type="submit" class="bd text-white form-control btn btn-block  " id="email12" placeholder="Email">
             </div>
             
