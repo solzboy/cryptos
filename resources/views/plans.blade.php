@@ -244,47 +244,47 @@
             <!-- .pricing-table End -->   
 </section>
 
-<section class=" mb-4 p-5 bg-green">
+<section class=" mb-4 p-5 bg-gradient mv ">
     <div class="row text-center p-5">
               
                 <div class="col-12 p-5">
-                    <h1 class="text-white">Why choose Blue Chips Network <br> Investment plans?</h1>
-                    <p class="text-white">Exclusive benefits</p>
+                    <h1 class="hm">Why choose Blue Chips Network <br> Investment plans?</h1>
+                    <p class="lead text-white">Exclusive benefits</p>
                 </div>
             
                 <!-- start item -->
                 <div class="col col-sm-6 col-lg-4">
-                    <h6 class=" mb-5 text-white">We offer great weekly investment profit</h6>  
+                    <h6 class=" mb-5 lead text-white"><strong>We offer great weekly investment profit</strong></h6>  
                 </div>
                  <!-- end item -->
 
                  <!-- start item -->
                 <div class="col col-sm-6 col-lg-4">
-                  <h6 class="mb-5 text-white">Earn Axos tokens when you purchase a plan membership</h6>
+                  <h6 class="mb-5 lead text-white"><strong>Earn Axos tokens when you purchase a plan membership</strong></h6>
                 </div>
                 <!-- end item -->
 
                 <!-- start item -->
                 <div class="col col-sm-6 col-lg-4">
-                    <h6 class="mb-5 text-white">Sell your mining rig anytime</h6>
+                    <h6 class="mb-5 lead text-white"><strong>Sell your mining rig anytime</strong></h6>
                 </div>
                 <!-- end item -->
 
                 <!-- start item -->
                 <div class="col col-sm-6 col-lg-4">
-                    <h6 class=" mb-5 text-white">No limit investing your cryptocurrency</h6>
+                    <h6 class=" mb-5 text-white lead"><strong>No limit investing your cryptocurrency</h6></strong>
                 </div>
                 <!-- end item -->
 
                 <!-- start item -->
                 <div class="col col--sm-6 col--lg-4">
-                    <h6 class=" mb-5 text-white">Earn extra bonus when you use your referral link to refer an investor</h6>
+                    <h6 class=" mb-5 text-white lead"><strong>Earn extra bonus when you use your referral link to refer an investor</strong></h6>
                 </div>
                 <!-- end item -->
 
                 <!-- start item -->
                 <div class="col col-sm-6 col-lg-4">
-                    <h6 class="text-white mb-5">Decrease in cryptocurrency invested do not affect your weekly investment profit</h6>
+                    <h6 class="text-white lead mb-5"><strong>Decrease in cryptocurrency invested do not affect your weekly investment profit</strong></h6>
                 </div>
                 <!-- end item -->
                 </div>
@@ -300,7 +300,7 @@
 
 <style>
     .bg-green{
-        background-color:#111D26;
+        background-color:#27067B;
     }
     .price-bg {
         background-color: #3773F4;
@@ -313,6 +313,31 @@
     }
     .con{
         max-height:30px;
+    }
+    .mv{
+        font-family: Poppins, Arial, sans-serif;
+        
+    }
+    .mv h2{
+        line-height: 1.33;
+        font-weight: 100;
+        color: #28384c;
+        font-size: 3.3em ;
+    }
+    .bg-gradient{
+        background-color: #27067B;
+
+        background-image: linear-gradient(to right, #27067B, #1A5ECE);
+    }
+    .hm{
+        position: relative;
+        margin-bottom: 25px;
+        z-index: 2;
+        font-size: 2.7em;
+        letter-spacing: -0.01em;
+        color:#CECFD3;
+        line-height: 1.33;   
+        font-weight: 100;
     }
 </style>
 

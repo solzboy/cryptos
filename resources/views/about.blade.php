@@ -389,7 +389,7 @@
                             <a href="#">Crypto News</a><a href="#">Apps</a>
                         </div>
                         <div class="entry--title">
-                            <h4><a class="text-primary" href="#">Blockchain-based Mobile Payments Service by Gates</a></h4>
+                            <h4><a class="text-white" href="#">Blockchain-based Mobile Payments Service by Gates</a></h4>
                         </div>
                         <div class="entry--bio text-white">
                             The Bill and Melinda Gates Foundation are introducing an open-source software to facilitate the creation of payment platforms for developing economies...
@@ -417,7 +417,7 @@
                             <a href="#">Cryptocurrency</a><a href="#">Tech</a>
                         </div>
                         <div class="entry--title">
-                            <h4><a href="#" class="text-primary">Governments Throwing Resources at Technology!</a></h4>
+                            <h4><a href="#" class="text-white">Governments Throwing Resources at Technology!</a></h4>
                         </div>
                         <div class="entry--bio text-white">
                             Despite the almost libertarian premise and a noble goal of complete decentralization, realistically, blockchain technology will not be able to avoid at least some level..
@@ -445,7 +445,7 @@
                             <a href="#">Bitcoin</a><a href="#">Tech</a>
                         </div>
                         <div class="entry--title ">
-                            <h4><a href="#" class="text-primary">Southeast Asian Governments Embrace Blockchain Technology</a></h4>
+                            <h4><a href="#" class="text-white">Southeast Asian Governments Embrace Blockchain Technology</a></h4>
                         </div>
                         <div class="entry--bio text-white">
                             Hong Kong is embracing blockchain technology search for a new business identity and opportunities. The city has a household name in shipping and finance...
