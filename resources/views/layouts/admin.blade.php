@@ -125,13 +125,13 @@
 				<li><a href="/account_wallet"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Account Wallet</a></li>
 			</ul>
 		</li> 
-		<li><a href="/user/plans"><i class="icon-Arrows-h"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i>Plans</a>
+		<li><a href="#"><i class="icon-Arrows-h"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i>Plans</a>
 			<ul> 
-				<li><a href="/gold1"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>BASIC</a></li>
-				<li><a href="/gold2"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>BRONZE</a></li>
-				<li><a href="/gold3"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>SILVER</a></li>
-				<li><a href="/gold4"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>GOLD</a></li>
-				<li><a href="/gold5"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>PLATNUIM</a></li>
+				<li><a href="/gold1"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Gold 1</a></li>
+				<li><a href="/gold2"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Gold 2</a></li>
+				<li><a href="/gold3"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Gold 3</a></li>
+				<li><a href="/gold4"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Gold 4</a></li>
+				<li><a href="/gold5"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Gold 5</a></li>
 			</ul>
 		</li>
 		<li><a href="/transcations"><i class="icon-Layout-4-blocks"><span class="path1"></span><span class="path2"></span></i>Transcations</a></li>
