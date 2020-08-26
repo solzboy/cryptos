@@ -32,12 +32,12 @@
 <!-- start main -->
 <main role="main">
     <!-- FORM-->
- <section class="container-fluid d-flex justify-content-center">
-    <div class="container">
+ <section class="container-fluid d-flex justify-content-center mb-0 pb-0">
+    <div class="container ">
         <div class="row">
-            <div class="container text-center">
-                <h6>CONTACT US</h6>
-                <h2>Get In Touch</h2>
+            <div class="container text-center fm">
+                <h6 class="hm mb-3">CONTACT US</h6>
+                <h2 >Get In Touch</h2>
             </div>
             <div class="container">
                 <p class="text-center text-secondary">Any questions? Reach out to us and we’ll get back to you shortly.</p>
@@ -59,7 +59,7 @@
                 <textarea type="email" class="form-control " id="text-area"  placeholder="Comment"></textarea>  
             </div>
             <div class="form-group container col-md-8  p-0 d-flex justify-content-center">
-                <input type="submit" class="text-white form-control btn btn-block btn-dark bg-secondary " id="email12" placeholder="Email">
+                <input type="submit" class="bd text-white form-control btn btn-block  " id="email12" placeholder="Email">
             </div>
             
             
@@ -77,17 +77,25 @@
 
 
     <!-- start section -->
-    <section class="section m-0 p-0 section--no-pt section--no-pb aos-init aos-animate" data-aos="zoom-in">
-            <iframe id="g_map--0001" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2610.4357066077228!2d-68.49688790663315!3d63.743364290786204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4dd316253416f12d%3A0xbd90938bfa19de02!2sQiyuttaat%2C+Iqaluit%2C+NU%2C+Canada!5e0!3m2!1sen!2sde!4v1549005982567" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen=""></iframe>
-            <style type="text/css">
-                #g_map--0001 { height: 380px }
-
-                @media only screen and (min-width: 560px)
-                {
-                    #g_map--0001 { height: 475px }
-                }
-            </style>
-        </section>
+    <section class="section card  m-0 " data-aos="zoom-in">
+          <div class="container con ">
+                <div class="row text-center ">
+                    <div class="col-md-4 col-sm-12 ">
+                        <i class="fa fa-map"></i>
+                        <p>4127/ 5B-C Utako Road,  Abuja, F.C.T</p>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <i class="fa fa-envelope"></i>
+                        <p>office@crypto.com</p>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <i class="fa fa-phone"></i>
+                        <p>Main: 203-808-8613 <br> Office: 203-808-8648</p>
+                    </div>
+                    
+                </div>
+          </div>
+    </section>
     <!-- end section -->
 
     <!-- TradingView Widget BEGIN -->
@@ -97,4 +105,43 @@
         </div>
     </div>
 <!-- TradingView Widget END -->
+<style>
+ .hm{
+        position: relative;
+        text-transform: uppercase;
+        color: #7ab9ff;
+        letter-spacing: 0.2em;
+        z-index: 2;
+        font-family: Poppins, Arial, sans-serif;
+        line-height: 1.33;    
+        font-weight: 200;
+        font-size: 1.7em ;
+    }
+  
+  h2{
+        position: relative;
+        text-transform: uppercase;
+        color: #28384c;
+        letter-spacing: 0.2em;
+        z-index: 2;
+        font-family: Poppins, Arial, sans-serif;
+        line-height: 1.33;    
+        font-weight: 200;
+        font-size: 2.7em ;
+  }
+
+
+    body{
+        font-family: Poppins, Arial, sans-serif;
+    }
+    .bd{
+        background-color:#1A3EB1 ;
+        
+    }
+    .con{
+        font-size: 30px;
+        color:black;
+    }
+   
+</style>
 @endsection
