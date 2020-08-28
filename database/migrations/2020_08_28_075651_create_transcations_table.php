@@ -18,7 +18,7 @@ class CreateTranscationsTable extends Migration
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
             $table->foreign('plan_id')->references('id')->on('plans')->onDelete('cascade');
             $table->foreign('payment_id')->references('id')->on('payments')->onDelete('cascade');
-            $table->string('status')->('Pending');       
+            $table->string('status')->default('Pending');       
             $table->timestamps();
         });
     }
