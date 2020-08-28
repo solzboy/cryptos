@@ -32,9 +32,13 @@ Route::get('/plans', function () {
 Route::get('/contact-us', function () {
     return view('contact');
 });
+Route::get('/delta-crypto-bond', function () {
+    return view('deltaCryptoBond');
+});
 Route::get('/users/plans', function () {
     return view('users.plans');
 });
+
 
 
 Auth::routes();
