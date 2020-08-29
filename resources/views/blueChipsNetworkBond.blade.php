@@ -1,4 +1,4 @@
-@extends('layouts/app') @section('title', 'Blue Chips Crypto Bond - ') 
+@extends('layouts/app') @section('title', 'Blue Chips Network Bond - ') 
 
 @section('content')
 
@@ -46,8 +46,8 @@
                         <p class="lead text-left"> The DCMB is a bond or debt security issued by Delta Global Securities Ltd.(“DGS”), acting in respect of its segregated account 2 ‘Delta Crypto Mining Bond’ (the “Issuer”), which is listed on the Bermuda Stock Exchange and was created to fund the mining of cryptocurrencies and related projects.</p>
                         
                         <div class="clerfix">
-                            <button class="float-left mr-3 mt-3 btn btn-outline-dark" type="submit">KEY FEATURES</button>
-                            <button class="float-center mt-3 btn btn-outline-dark" type="submit">REGISTER INTEREST</button>
+                            <a href="/" class="float-left mr-3 mt-3 btn btn-outline-dark" >KEY FEATURES</a>
+                            <a href="/plans" class="float-center mt-3 btn btn-outline-dark" >REGISTER INTEREST</a>
                         </div>
                     </div>
                 </div>
@@ -232,8 +232,8 @@
             </div>
         </div>
         <div class=" text-center">
-                <a href="/contact-us" class="text-center btn btn-outline-dark"> REQUEST INFORMATION</a>
-            </div>
+             <a type="button" class="btn btn-outline-dark btn-lg mt-5 mb-1" href="register" >REQUEST INFORMATION</a>
+        </div>
 	</div>
 	<div class="clearfix mb-sm">
 	</div>

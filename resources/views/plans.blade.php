@@ -77,7 +77,7 @@
                                      Contract Duration - 1 year
                                 </li>                                         
                             </ul>
-                            <a type="button" class=" shadow  btn--rounded btn btn-primary btn-lg text-white mt-5 mb-1" href="about-us" >Buy Now</a>
+                            <a type="button" class=" shadow  btn--rounded btn btn-primary btn-lg text-white mt-5 mb-1" href="register" >Buy Now</a>
                         </div>
                         
 					</div>
@@ -115,7 +115,7 @@
                                      Contract Duration - 1 year
                                 </li>                                         
                             </ul>
-                            <a type="button" class=" shadow  btn--rounded btn btn-light btn-lg text-primary mt-5 mb-1" href="about-us" >Buy Now</a>
+                            <a type="button" class=" shadow  btn--rounded btn btn-light btn-lg text-primary mt-5 mb-1" href="register" >Buy Now</a>
                         </div>
                         
 					</div>
@@ -158,7 +158,7 @@
                                      Contract Duration - 1 year
                                 </li>                                         
                             </ul>
-                            <a type="button" class=" shadow  btn--rounded btn btn-light btn-lg text-primary mt-5 mb-1" href="about-us" >Buy Now</a>
+                            <a type="button" class=" shadow  btn--rounded btn btn-light btn-lg text-primary mt-5 mb-1" href="register" >Buy Now</a>
                         </div>
                         
 					</div>
@@ -196,7 +196,7 @@
                                      Contract Duration - 1 year
                                 </li>                                         
                             </ul>
-                            <a type="button" class=" shadow  btn--rounded btn btn-primary btn-lg text-white mt-5 mb-1" href="about-us" >Buy Now</a>
+                            <a type="button" class=" shadow  btn--rounded btn btn-primary btn-lg text-white mt-5 mb-1" href="register" >Buy Now</a>
                         </div>
                         
 					</div>
@@ -234,7 +234,7 @@
                                      Contract Duration - 1 year
                                 </li>                                         
                             </ul>
-                            <a type="button" class=" shadow  btn--rounded btn btn-primary btn-lg text-white mt-5 mb-1" href="about-us" >Buy Now</a>
+                            <a type="button" class=" shadow  btn--rounded btn btn-primary btn-lg text-white mt-5 mb-1" href="register" >Buy Now</a>
                         </div>
                         
 					</div>
