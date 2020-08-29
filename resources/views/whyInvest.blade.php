@@ -8,7 +8,7 @@
 ============================================= -->
 <section id="page-title" class="page-title bg-overlay bg-overlay-dark bg-parallax">
     <div class="bg-section">
-        <img src="assets/images/page-titles/5.jpg" alt="Background" />
+        <img src="assets/images/page-titles/9.jpg" alt="Background" />
     </div>
     <div class="container">
         <div class="row">
@@ -28,23 +28,27 @@
     </div><!-- .container end -->
 </section><!-- #page-title end -->
 
+
 <!-- Info Cards
 ============================================= -->
-<section>
-    <div class="container-fluid  why-in m-0 p-0">
-        <div class="row mx-auto container">
-            <div class="col-md-6 col-sm-12">
-                <h6 class="heading-xs">Why cryptocurrency?</h6>
-                <h2>Why cryptocurrency?</h2>
-                <p class="lead">Cryptocurrency is perhaps the most exciting asset class of the 21st century. A decentralized digital currency that works on the very interesting and likely here-to-stay blockchain technology.</p>
-
+<section class="mt-5 pt-2  mb-5 pb-4">
+    <div class="container why-in ">
+        <div class="row">
+            <div class="col-md-6 order-md-6">
+                <img class="card-img-top " src="assets/images/icons/Icon_Crypto-Currency.png" alt="FirstImg"> 
             </div>
-            <div class="col-md-5 col-sm-12 ml-3">
-                <img class="w-95"src="assets/images/icons/Icon_Crypto-Currency.png" alt="Background" />
+
+            <div class="col-md-6 order-1">
+
+                <div class="row align-items-center p-5 h-100">
+                    <div class="col">
+                        <h6 class="heading-xs">Why cryptocurrency?</h6>
+                        <h2>Why cryptocurrency?</h2>
+                        <p class="lead">Cryptocurrency is perhaps the most exciting asset class of the 21st century. A decentralized digital currency that works on the very interesting and likely here-to-stay blockchain technology.</p>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-      
 </section>
 <!-- #infoCards end -->
 
@@ -433,6 +437,13 @@
     .bg-bond{
         background-color:#F7F7F7;
     }
-   
+    .con{
+            width:288px;
+            display:block;
+        }
+        .con2{
+            width:138px;
+            display:block;
+        }
 </style>
 @endsection

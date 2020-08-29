@@ -7,7 +7,7 @@
 ============================================= -->
 <section id="page-title" class="page-title  bg-overlay bg-overlay-dark bg-green bg-parallax">
 <div class="bg-section ">
-        <img src="assets/images/page-titles/3.jpg" alt="Background" />
+        <img src="assets/images/page-titles/12.jpg" alt="Background" />
     </div>
     <div class="container">
         <div class="row">
@@ -41,7 +41,7 @@
                     <img src="assets/images/mockups/macbook-gold.png" alt="Laptop Mockup">
                 </div>
             </div><!-- .col-lg-5 end -->
-            <div class="col-sm-12 col-md-12 col-lg-5 order-1 order-lg-2">
+            <div class="col-sm-12 col-md-12 col-lg-5 order-1 order-lg-2 pl-5">
                 <div class="heading heading-6">
                     <h2 class="heading--title text-white">Take Your First Steps to Becoming a Bitcoiner Today!</h2>
                     <p class="heading--desc text-gray mb-20">Now you can start trading Bitcoin, Ethereum and many cryptocurrencies fast, easily and safely from where ever you are. With great margin trading leverage and short sell options available with quick deposit & withdrawal capability, you can start trading with us in seconds.</p>
