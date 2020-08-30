@@ -3,6 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\User;
+use App\Transaction;
+use Illuminate\Support\Facades\Auth;
+
 
 class HomeController extends Controller
 {
@@ -31,7 +35,10 @@ class HomeController extends Controller
         }
         // if auth is user
         else {
-            return view('users.dashboard');
+            $id = Auth::id();
+            $user = User::find($id);
+            $transactions = $user->Transactions()->get();
+            return view('users.dashboard', compact('transactions','user'));
         }
     }
 }
