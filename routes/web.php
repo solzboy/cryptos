@@ -33,6 +33,7 @@ Route::get('/blue-chips-bond', function () {
 });
 Route::get('/home', 'HomeController@index')->name('home');
 
+
 Route::group(['middleware' => ['role:User']], function () {
     Route::get('/basic', function () {
         return view('welcome');
@@ -49,6 +50,8 @@ Route::group(['middleware' => ['role:User']], function () {
     Route::get('/users/plans', function () {
         return view('users.plans');
     });
+    Route::get('/user-transaction', 'TranscationController@user-transcations')->name('transaction.users');
+
 });
 
 Route::group(['middleware' => ['role:Admin']], function () {
@@ -64,7 +67,8 @@ Route::group(['middleware' => ['role:Admin']], function () {
     Route::get('/platnuim', function () {
         return view('welcome');
     });
-    
+    Route::resource('transcations', 'TranscationController');
+
 });
 
 

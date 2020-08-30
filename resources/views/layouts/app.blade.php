@@ -132,7 +132,7 @@
                                             <a href="/why-invest">why invest</a>
                                         </li>
                                         <li>
-                                            <a href="/invest-with-us"
+                                            <a href="/blue-chips-bond"
                                                 >invest with us</a
                                             >
                                         </li>

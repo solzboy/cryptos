@@ -18,7 +18,7 @@
                     <div class="clearfix"></div>
                     <ol class="breadcrumb">
                         <li><a href="/">Home</a></li>
-                        <li><a href="/why-invest">Why Invest</a></li>
+                        <li><a href="/blue-chips-bond">Invest with us</a></li>
                         <li class="active">Blue Chips Network Bond</li>
                     </ol>
                 </div><!-- .title end -->
