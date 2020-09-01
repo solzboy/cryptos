@@ -7,11 +7,11 @@
       <!-- Content Header (Page header) -->
       <div class="content-header">
           <h3>
-              Complete Payout Request
+              Purchase Plan
             </h3>
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="/home"><i class="fa fa-dashboard"></i>Home</a></li>
-              <li class="breadcrumb-item" aria-current="page">Complete Payout Request</li>
+              <li class="breadcrumb-item" aria-current="page">Purchase Plan</li>
             </ol>
 </div>
 
