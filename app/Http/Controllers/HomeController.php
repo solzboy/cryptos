@@ -37,7 +37,7 @@ class HomeController extends Controller
         else {
             $id = Auth::id();
             $user = User::find($id);
-            $transactions = $user->Transactions()->get();
+            $transactions = $user->Transactions()->limit(10)->get();
             return view('users.dashboard', compact('transactions','user'));
         }
     }
