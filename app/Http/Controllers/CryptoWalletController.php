@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use App\User;
 use App\CryptoWallet;
 use Illuminate\Http\Request;
+use App\Transaction;
 use Illuminate\Support\Facades\Auth;
 
 
@@ -98,5 +99,11 @@ class CryptoWalletController extends Controller
         $cryptoWallet->delete();
 
         return back();
+    }
+    public function wallet(CryptoWallet $cryptoWallet)
+    {
+        $id = Auth::id();
+        $user = User::find($id);
+        return view('users.accountWallet', compact('user'));
     }
 }

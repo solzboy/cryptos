@@ -25,7 +25,7 @@
             </div>
             <div class="row p-3">
                 <div class="col-md text-center card mr-3 ">
-                    <h1 class="text-primary">$0</h1>
+                    <h1 class="text-primary">${{$user->account_wallet}}</h1>
                     <p class="text-secondary">CURRENT BALANCE</p>           
                 </div>
                 <div class="col-md card text-center ml-0 pl-0 ">

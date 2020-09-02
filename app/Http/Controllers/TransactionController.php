@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Transcation;
 use Illuminate\Http\Request;
+use App\User;
+use Illuminate\Support\Facades\Auth;
 
 class TransactionController extends Controller
 {
@@ -85,6 +87,9 @@ class TransactionController extends Controller
 
     public function userTranscations()
     {
-        # code...
+        $id = Auth::id();
+            $user = User::find($id);
+            $transactions = $user->Transactions()->get();
+        return view('users.transactions', compact('transactions'));
     }
 }

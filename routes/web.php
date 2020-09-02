@@ -50,17 +50,13 @@ Route::group(['middleware' => ['role:User']], function () {
     Route::get('/users/plans', function () {
         return view('users.plans');
     });
-    Route::get('/users/account_wallet', function () {
-        return view('users.accountWallet');
-    });
+    Route::get('/users/account_wallet', 'CryptoWalletController@wallet')->name('wallet');
     Route::resource('/users/crypto_wallet', 'CryptoWalletController');
 
     Route::get('/users/purchase_plan', function () {
         return view('users.purchasePlan');
     });
-    Route::get('/users/payout_request', function () {
-        return view('users.payoutRequest');
-    });
+    Route::resource('/users/payout_request', 'PaymentController');
     Route::get('/users/transcations', 'TransactionController@userTranscations')->name('transaction.users');
 
 });
