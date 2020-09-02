@@ -35,7 +35,7 @@
 						<p><strong> 5% Referral Bonus</strong></p>
 
 						<br><br>
-						<a class="btn btn-rounded btn-success" href="/users/{{strtolower($plan->name)}}">Select plan</a>
+						<a class="btn btn-rounded btn-success" href="/users/plan/{{strtolower($plan->name)}}">Select plan</a>
 					  </div>
 					</div>
 				  </div>

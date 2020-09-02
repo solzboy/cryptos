@@ -35,18 +35,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 
 Route::group(['middleware' => ['role:User']], function () {
-    Route::get('/users/basic', function () {
-        return view('welcome');
-    });
-    Route::get('/users/silver', function () {
-        return view('welcome');
-    });
-    Route::get('/users/gold', function () {
-        return view('welcome');
-    });
-    Route::get('/users/platnuim', function () {
-        return view('welcome');
-    });
+    Route::get('/users/plan/{plans}', 'PlanController@plans')->name('plans');
+
     Route::resource('/users/plans','PlanController');
     Route::get('/users/account_wallet', 'CryptoWalletController@wallet')->name('wallet');
     Route::resource('/users/crypto_wallet', 'CryptoWalletController');
@@ -54,7 +44,7 @@ Route::group(['middleware' => ['role:User']], function () {
     Route::get('/users/purchase_plan', function () {
         return view('users.purchasePlan');
     });
-    Route::resource('/users/payout_request', 'PaymentController');
+    Route::resource('/users/payout_request', 'PayoutController');
     Route::get('/users/transcations', 'TransactionController@userTranscations')->name('transaction.users');
 
 });

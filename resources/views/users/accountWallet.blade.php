@@ -20,7 +20,7 @@
         <div class="col-12 container-fluid">
             <div class="clear-fix p-3">
                 <p class="text-dark float-left font-weight-700">Financial Overview</p>
-                <a type="button" class="mx-auto mb-0 pb-0 float-right pb-5 btn btn-success btn-md mb-2" ><i class="fa fa-money"></i> Request Payout</a>
+                <a href="{{route('payout_request.index')}}" class="mx-auto mb-0 pb-0 float-right pb-5 btn btn-success btn-md mb-2" ><i class="fa fa-money"></i> Request Payout</a>
                 <br><hr>
             </div>
             <div class="row p-3">

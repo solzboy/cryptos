@@ -2,10 +2,14 @@
 
 namespace App\Http\Controllers;
 
-use App\Plan;
+use App\payout;
 use Illuminate\Http\Request;
+use App\User;
+use App\CryptoWallet;
+use App\Transaction;
+use Illuminate\Support\Facades\Auth;
 
-class PlanController extends Controller
+class PayoutController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,8 +19,11 @@ class PlanController extends Controller
     public function index()
     {
         //
-        $plans = Plan::all();
-        return view('users.plans', compact('plans'));
+        $id = Auth::id();
+        $wallets = CryptoWallet::where('user_id', $id)->get();
+        $payouts = payout::where('user_id', $id)->get();
+        $user = User::find($id);
+        return view('users.payoutRequest', compact('wallets', 'payouts', 'user'));
     }
 
     /**
@@ -38,15 +45,22 @@ class PlanController extends Controller
     public function store(Request $request)
     {
         //
+        $id = Auth::id();
+        $payout = new payout;
+        $payout->wallet = $request->wallet;
+        $payout->amount = $request->amount;
+        $payout->user_id = $id;
+        $payout->save();
+        return redirect()->route('payout_request.index');
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Plan  $plan
+     * @param  \App\payout  $payout
      * @return \Illuminate\Http\Response
      */
-    public function show(Plan $plan)
+    public function show(payout $payout)
     {
         //
     }
@@ -54,10 +68,10 @@ class PlanController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Plan  $plan
+     * @param  \App\payout  $payout
      * @return \Illuminate\Http\Response
      */
-    public function edit(Plan $plan)
+    public function edit(payout $payout)
     {
         //
     }
@@ -66,10 +80,10 @@ class PlanController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Plan  $plan
+     * @param  \App\payout  $payout
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Plan $plan)
+    public function update(Request $request, payout $payout)
     {
         //
     }
@@ -77,17 +91,11 @@ class PlanController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Plan  $plan
+     * @param  \App\payout  $payout
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Plan $plan)
+    public function destroy(payout $payout)
     {
         //
-    }
-
-    public function plans(Plan $plan, Request $request)
-    {
-        //
-        return view('users.purchasePlan');
     }
 }
