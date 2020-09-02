@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
 use App\User;
+use App\Plan;
 
 class UserSeeder extends Seeder
 {
@@ -29,5 +30,27 @@ class UserSeeder extends Seeder
             'password' => Hash::make('password')
         ]);
         $user3->assignRole('User');
+
+
+        $plan = Plan::Create([
+                'name' => 'BASIC',
+                'price' => 500.00
+        ]);
+        $plan2 = Plan::Create([
+            'name' => 'BRONZE',
+            'price' => 1000.00
+            ]);
+        $plan4 = Plan::Create([
+                'name' => 'SILVER',
+                'price' => 5000.00
+        ]);
+        $plan1 = Plan::Create([
+            'name' => 'GOLD',
+            'price' => 10000.00
+        ]);
+        $plan3 = Plan::Create([
+            'name' => 'PLATNUIM',
+            'price' => 30000.00
+        ]);
     }
 }

@@ -15,125 +15,31 @@
             </ol>
       </div>
 
-<section class="content">		
-			<div class="row no-gutters">
-
+<section class="content" >		
+			<div class="row no-gutters" style="justify-content: center">
+				@foreach($plans as $key => $plan)
 				  <div class="col-lg-4">
 					<div class="box">
 					  <div class="box-body text-center">
-						<h5 class="text-uppercase text-muted">Starter package</h5>
+						<h5 class="text-uppercase text-muted">{{$plan->name}}</h5>
 						<br>
 						<h3 class="price">
-						  <sup>$</sup>0
+							<sup>$</sup>{{number_format($plan->price)}}<sup>.00</sup>
 						  <span>&nbsp;</span>
 						</h3>
 
 						<hr>
-						<p><strong>500 MB</strong> Storage</p>
-						<p><strong>24x7</strong> Support</p>
-						<p><strong>5</strong> Project</p>
-						<p><strong>1</strong> User</p>
+						<p><strong> Instant Withdrawal</strong></p>
+						<p><strong> Contract Duration - 1 year</strong></p>
+						<p><strong> 24/7 Support</strong></p>
+						<p><strong> 5% Referral Bonus</strong></p>
 
 						<br><br>
-						<a class="btn btn-rounded btn-success" href="#">Select plan</a>
+						<a class="btn btn-rounded btn-success" href="/users/{{strtolower($plan->name)}}">Select plan</a>
 					  </div>
 					</div>
 				  </div>
-
-				  <div class="col-lg-4">
-					<div class="box box-inverse box-info">
-					  <div class="box-body text-center">
-						<h5 class="text-uppercase text-muted">Professional package</h5>
-						<br>
-						<h3 class="price">
-						  <sup>$</sup>5<sup>.99</sup>
-						  <span class="text-white">per month</span>
-						</h3>
-
-						<hr>
-						<p><strong>1 GB</strong> Storage</p>
-						<p><strong>24x7</strong> Support</p>
-						<p><strong>15</strong> Project</p>
-						<p><strong>3</strong> User</p>
-
-						<br><br>
-						<a class="btn btn-rounded btn-outline btn-white" href="#">Select plan</a>
-					  </div>
-					</div>
-				  </div>
-
-				  <div class="col-lg-4">
-					<div class="box">
-					  <div class="box-body text-center">
-						<h5 class="text-uppercase text-muted">Enterprise package</h5>
-						<br>
-						<h3 class="price">
-						  <sup>$</sup>15<sup>.99</sup>
-						  <span>per month</span>
-						</h3>
-
-						<hr>
-						<p><strong>5 GB</strong> Storage</p>
-						<p><strong>24x7</strong> Support</p>
-						<p><strong>50</strong> Project</p>
-						<p><strong>10</strong> User</p>
-
-						<br><br>
-						<a class="btn btn-rounded btn-warning" href="#">Select plan</a>
-					  </div>
-					</div>
-				  </div>
-
-				</div>
-
-                <br><br><br>
-                
-                
-                <div class="row no-gutters" style="justify-content: center">
-
-				  <div class="col-lg-4">
-					<div class="box">
-					  <div class="box-body text-center">
-						<h5 class="text-uppercase text-muted">Starter package</h5>
-						<br>
-						<h3 class="price">
-						  <sup>$</sup>0
-						  <span>&nbsp;</span>
-						</h3>
-
-						<hr>
-						<p><strong>500 MB</strong> Storage</p>
-						<p><strong>24x7</strong> Support</p>
-						<p><strong>5</strong> Project</p>
-						<p><strong>1</strong> User</p>
-
-						<br><br>
-						<a class="btn btn-rounded btn-success" href="#">Select plan</a>
-					  </div>
-					</div>
-				  </div>
-
-				  <div class="col-lg-4">
-					<div class="box">
-					  <div class="box-body text-center">
-						<h5 class="text-uppercase text-muted">Enterprise package</h5>
-						<br>
-						<h3 class="price">
-						  <sup>$</sup>15<sup>.99</sup>
-						  <span>per month</span>
-						</h3>
-
-						<hr>
-						<p><strong>5 GB</strong> Storage</p>
-						<p><strong>24x7</strong> Support</p>
-						<p><strong>50</strong> Project</p>
-						<p><strong>10</strong> User</p>
-
-						<br><br>
-						<a class="btn btn-rounded btn-warning" href="#">Select plan</a>
-					  </div>
-					</div>
-				  </div>
+				  @endforeach
 
 				</div>
             </section>

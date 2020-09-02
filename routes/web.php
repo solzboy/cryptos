@@ -47,9 +47,7 @@ Route::group(['middleware' => ['role:User']], function () {
     Route::get('/users/platnuim', function () {
         return view('welcome');
     });
-    Route::get('/users/plans', function () {
-        return view('users.plans');
-    });
+    Route::resource('/users/plans','PlanController');
     Route::get('/users/account_wallet', 'CryptoWalletController@wallet')->name('wallet');
     Route::resource('/users/crypto_wallet', 'CryptoWalletController');
 
