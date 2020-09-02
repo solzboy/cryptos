@@ -40,7 +40,7 @@
                                                   <h3 class="my-0 text-dark font-weight-700">$0.00</h3>
                                               </div>
                                           </div>
-                                          <a href="#" class="btn btn-success mt-30 d-block mb-md-0 mb-30">Payout</a>
+                                          <a href="{{route('payout_request.index')}}" class="btn btn-success mt-30 d-block mb-md-0 mb-30">Payout</a>
                                       </div>
                                       <div>
                                           <div class="d-flex align-items-center gap-items-3">
