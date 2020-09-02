@@ -97,6 +97,7 @@ class PlanController extends Controller
         if ($plans == 'basic') {
             $wallets = CryptoWallet::where('user_id', $id)->get();
             $plannes = Plan::where('name', $plans)->first();
+            dd($plannes);
             return view('users.purchasePlan', compact('plannes', 'wallets'));
         }elseif($plans == 'bronze') {
             $wallets = CryptoWallet::where('user_id', $id)->get();
