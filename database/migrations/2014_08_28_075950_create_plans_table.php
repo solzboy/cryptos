@@ -17,6 +17,7 @@ class CreatePlansTable extends Migration
             $table->id();
             $table->string('name');
             $table->decimal('price', 15, 2);
+            $table->decimal('weekly_payout', 15, 2);
             $table->timestamps();
         });
     }

@@ -34,23 +34,28 @@ class UserSeeder extends Seeder
 
         $plan = Plan::Create([
                 'name' => 'BASIC',
-                'price' => 500.00
+                'price' => 500.00,
+                'weekly_payout' => 50.00
         ]);
         $plan2 = Plan::Create([
             'name' => 'BRONZE',
-            'price' => 1000.00
+            'price' => 1000.00,
+            'weekly_payout' => 150.00
             ]);
         $plan4 = Plan::Create([
                 'name' => 'SILVER',
-                'price' => 5000.00
+                'price' => 5000.00,
+                'weekly_payout' => 1000.00
         ]);
         $plan1 = Plan::Create([
             'name' => 'GOLD',
-            'price' => 10000.00
+            'price' => 10000.00,
+            'weekly_payout' => 2500.00
         ]);
         $plan3 = Plan::Create([
             'name' => 'PLATNUIM',
-            'price' => 30000.00
+            'price' => 30000.00,
+            'weekly_payout' => 6000.00
         ]);
     }
 }

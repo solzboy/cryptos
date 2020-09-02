@@ -4,6 +4,10 @@ namespace App\Http\Controllers;
 
 use App\Plan;
 use Illuminate\Http\Request;
+use App\User;
+use App\CryptoWallet;
+use App\Transaction;
+use Illuminate\Support\Facades\Auth;
 
 class PlanController extends Controller
 {
@@ -85,9 +89,31 @@ class PlanController extends Controller
         //
     }
 
-    public function plans(Plan $plan, Request $request)
+    public function plans(Plan $plan, Request $request, $plans)
     {
         //
-        return view('users.purchasePlan');
+        $id = Auth::id();
+        $user = User::find($id);
+        if ($plans == 'basic') {
+            $wallets = CryptoWallet::where('user_id', $id)->get();
+            $plannes = Plan::where('name', $plans)->first();
+            return view('users.purchasePlan', compact('plannes', 'wallets'));
+        }elseif($plans == 'bronze') {
+            $wallets = CryptoWallet::where('user_id', $id)->get();
+            $plannes = Plan::where('name', $plans)->first();
+             return view('users.purchasePlan', compact('plannes', 'wallets'));
+        }elseif($plans == 'silver') {
+            $wallets = CryptoWallet::where('user_id', $id)->get();
+            $plannes = Plan::where('name', $plans)->first();
+             return view('users.purchasePlan', compact('plannes', 'wallets'));
+        }elseif($plans == 'gold') {
+            $wallets = CryptoWallet::where('user_id', $id)->get();
+            $plannes = Plan::where('name', $plans)->first();
+             return view('users.purchasePlan', compact('plannes', 'wallets'));
+        }else{
+            $wallets = CryptoWallet::where('user_id', $id)->get();
+            $plannes = Plan::where('name', $plans)->first();
+             return view('users.purchasePlan', compact('plannes', 'wallets'));
+        }
     }
 }

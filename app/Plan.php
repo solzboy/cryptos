@@ -8,6 +8,6 @@ class Plan extends Model
 {
     //
     protected $fillable = [
-        'name', 'price',
+        'name', 'price', 'weekly_payout'
     ];
 }
