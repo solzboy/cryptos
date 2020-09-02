@@ -1,9 +1,11 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\User;
 use App\CryptoWallet;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+
 
 class CryptoWalletController extends Controller
 {
@@ -15,6 +17,10 @@ class CryptoWalletController extends Controller
     public function index()
     {
         //
+        $id = Auth::id();
+        $wallets = CryptoWallet::where('user_id', $id)->get();
+        
+        return view('users.cryptoWallet', compact('wallets'));
     }
 
     /**
@@ -25,6 +31,7 @@ class CryptoWalletController extends Controller
     public function create()
     {
         //
+        return view('users.cryptoWallet');
     }
 
     /**
@@ -36,6 +43,14 @@ class CryptoWalletController extends Controller
     public function store(Request $request)
     {
         //
+
+        $id = Auth::id();
+        $CryptoWallet = new CryptoWallet;
+        $CryptoWallet->name = $request->name;
+        $CryptoWallet->address = $request->address;
+        $CryptoWallet->user_id = $id;
+        $CryptoWallet->save();
+        return redirect()->route('crypto_wallet.index');
     }
 
     /**
@@ -80,6 +95,8 @@ class CryptoWalletController extends Controller
      */
     public function destroy(CryptoWallet $cryptoWallet)
     {
-        //
+        $cryptoWallet->delete();
+
+        return back();
     }
 }

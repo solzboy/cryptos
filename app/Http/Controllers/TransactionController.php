@@ -82,4 +82,9 @@ class TransactionController extends Controller
     {
         //
     }
+
+    public function userTranscations()
+    {
+        # code...
+    }
 }

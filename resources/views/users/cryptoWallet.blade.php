@@ -1,5 +1,7 @@
 @extends('layouts/userdashboard') @section('title', 'Crypto Wallet - ') 
-
+@section('styles')
+<link rel="stylesheet" href="/dashboard/assets/vendor_components/datatable/datatables.min.css">
+@endsection
 @section('content')
 
 <div class="content-wrapper">
@@ -16,78 +18,75 @@
 </div>
 
 <!-- Main content -->
-<section>
+<section class="content">
 <div class="container-fluid">
   <div class="row">
     <div class="col-lg-8 card mr-4 p-3">
         <h3>  <i class="fa fa-book "></i> My Wallet</h3>
         <p>All my Saved Crypto Wallet</p><hr>
-        <form class="mb-4 pb-4">
-            <div class="row mt-4">
-                <div class="col ">
-                <label for="">show</label>
-                <select name="" id="">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                </select>
-                </div>
-                <div class="col">
-                <label for="">Search</label>
-                <input type="text" placeholder="Search">
-                </div>
-            </div>
-        </form>  
-        <!-- table Started -->
-        <div class="table-responsive">
-                    <table id="tickets" class="table mt-0 table-hover no-wrap table-borderless border-top-0" data-page-size="10">
-                        <thead>
-                            <tr>
-                                <th>S/N</th>
-                                <th>INVESTMENT TYPE</th>
-                                <th>ADDRESS</th>
-                                <th>DATE</th>
-                                <th>OPTIONS</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>
-                                    BITCOIN
-                                </td>
-                                <td>1000</td>
-                                <td>1st September, 2020</td>
-                                <td><button type="submit" class="btn btn-md btn-danger">delete</button> </td>
-                            </tr>
-                        </tbody>
-                    </table>
-         </div>
+         
+
+                      <div class="box-body">
+                          <div class="table-responsive">
+                            <table id="example" class="table  table-hover display nowrap margin-top-10 w-p100">
+                              <thead>
+                                  <tr>
+                                      <th>S/N</th>
+                                      <th>INVESTMENT TYPE</th>
+                                      <th>ADDRESS</th>
+                                      <th>DATE</th>
+                                      <th>ACTIONS</th>
+                                  </tr>
+                              </thead>
+                              <tbody>
+                                @foreach($wallets as $key => $wallet)
+                                  <tr>
+                                      <td>{{$wallet->id}}</td>
+                                      <td>{{$wallet->name}}</td>
+                                      <td>{{$wallet->address}}</td>
+                                      <td>{{$wallet->created_at}}</td>
+                                      <td>
+                                        <form action="{{ route('crypto_wallet.destroy', $wallet->id) }}" method="POST"
+                                            onsubmit="return confirm('Are You Sure');"
+                                            style="display: inline-block;">
+                                            <input type="hidden" name="_method" value="DELETE">
+                                            <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                                            <input type="submit" class="btn btn-xs btn-danger" value="Delete">
+                                        </form>
+                                      </td>
+                                  </tr>
+                                  @endforeach
+                              </tbody>				  
+                              
+                          </table>
+                          </div>              
+                      </div>
+                     
         <!-- Table END-->
     </div>
     <!-- Add wallet -->
     <div class="col-md-3 card pb-4">
       <h3><i class="text-primary fa fa-plus"></i>  Add Wallet</h3>
       <p>Add a new wallet</p><hr>
-      <form>
+      <form action="/users/crypto_wallet" method="POST">
+        @csrf
             <div class="form-group">
-                <label for="formGroupExampleInput" class="text-primary">Payment Type</label>
-                <select name="" id="" class="form-control rounded-0" >
+                <label for="name" class="text-primary">Payment Type</label>
+                <select name="name" id="name" class="form-control rounded-0" >
                     <option value="BITCOIN">BITCOIN</option>
-                    <option value="BITCOIN">LITECOIN</option>
-                    <option value="BITCOIN">ETHERIUM</option>
-                    <option value="BITCOIN">SOLZCOIN</option>
+                    <option value="LITECOIN">LITECOIN</option>
+                    <option value="ETHERIUM">ETHERIUM</option>
+                    <option value="SOLZCOIN">SOLZCOIN</option>
                 </select>
             </div>
             <div class="form-group ">
-                <label for="formGroupExampleInput2" class="text-primary">Address</label>
-                <input type="text" class="form-control rounded-0" id="formGroupExampleInput2" placeholder="Address">
+                <label for="address" class="text-primary">Address</label>
+                <input type="text" class="form-control rounded-0" id="address" name="address" placeholder="Address">
             </div>
-
             <button type="submit" class="btn btn-block btn-primary">Sumbit</button>
         </form>
     </div>
+
   </div>
   <!-- Add wallet ENDS-->
 </div>
@@ -95,9 +94,12 @@
     
 
 
-<style>
-    
-</style>
+@endsection
 
 
+@section('scripts')
+<script src="/dashboard/assets/vendor_components/datatable/datatables.min.js"></script>
+	
+	<!-- Crypto Admin for Data Table -->
+<script src="/dashboard/js/pages/data-table.js"></script>
 @endsection

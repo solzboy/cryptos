@@ -53,16 +53,15 @@ Route::group(['middleware' => ['role:User']], function () {
     Route::get('/users/account_wallet', function () {
         return view('users.accountWallet');
     });
-    Route::get('/users/crypto_wallet', function () {
-        return view('users.cryptoWallet');
-    });
+    Route::resource('/users/crypto_wallet', 'CryptoWalletController');
+
     Route::get('/users/purchase_plan', function () {
         return view('users.purchasePlan');
     });
     Route::get('/users/payout_request', function () {
         return view('users.payoutRequest');
     });
-    Route::get('/user-transaction', 'TranscationController@user-transcations')->name('transaction.users');
+    Route::get('/users/transcations', 'TransactionController@userTranscations')->name('transaction.users');
 
 });
 
@@ -79,7 +78,7 @@ Route::group(['middleware' => ['role:Admin']], function () {
     Route::get('/platnuim', function () {
         return view('welcome');
     });
-    Route::resource('transcations', 'TranscationController');
+    Route::resource('transcations', 'TransactionController');
 
 });
 

@@ -13,7 +13,7 @@
   
 	<!-- Bootstrap 4.0-->
 	<link rel="stylesheet" href="/dashboard/assets/vendor_components/bootstrap/dist/css/bootstrap.min.css">
-	
+	@yield('styles')
 	<!-- theme style -->
 	<link rel="stylesheet" href="/dashboard/css/horizontal-menu.css">
 	<link rel="stylesheet" href="/dashboard/css/style.css">
@@ -121,20 +121,20 @@
 		
 		<li><a href="#"><i class="icon-Group"><span class="path1"></span><span class="path2"></span></i>Wallet</a>
 			<ul> 
-				<li><a href="/crypto_wallet"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Crypto Wallet</a></li>
-				<li><a href="/account_wallet"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Account Wallet</a></li>
+				<li><a href="/users/crypto_wallet"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Crypto Wallet</a></li>
+				<li><a href="/users/account_wallet"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Account Wallet</a></li>
 			</ul>
 		</li> 
 		<li><a href="#"><i class="icon-Arrows-h"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i>Plans</a>
 			<ul> 
-				<li><a href="/basic"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>BASIC</a></li>
-				<li><a href="/bronze"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>BRONZE</a></li>
-				<li><a href="/silver"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>SILVER</a></li>
-				<li><a href="/gold"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>GOLD</a></li>
-				<li><a href="/platnuim"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>PLATNUIM</a></li>
+				<li><a href="/users/basic"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>BASIC</a></li>
+				<li><a href="/users/bronze"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>BRONZE</a></li>
+				<li><a href="/users/silver"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>SILVER</a></li>
+				<li><a href="/users/gold"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>GOLD</a></li>
+				<li><a href="/users/platnuim"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>PLATNUIM</a></li>
 			</ul>
 		</li>
-		<li><a href="/transcations"><i class="icon-Layout-4-blocks"><span class="path1"></span><span class="path2"></span></i>Transcations</a></li>
+		<li><a href="/users/transcations"><i class="icon-Layout-4-blocks"><span class="path1"></span><span class="path2"></span></i>Transcations</a></li>
 			</ul>
 	</nav>
   
@@ -162,7 +162,7 @@
 	
 	<!-- Crypto Admin for demo purposes -->
 	<script src="/dashboard/js/demo.js"></script>
-	
+	@yield('scripts')
 
 </body>
 
