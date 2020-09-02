@@ -35,16 +35,16 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 
 Route::group(['middleware' => ['role:User']], function () {
-    Route::get('/basic', function () {
+    Route::get('/users/basic', function () {
         return view('welcome');
     });
-    Route::get('/silver', function () {
+    Route::get('/users/silver', function () {
         return view('welcome');
     });
-    Route::get('/gold', function () {
+    Route::get('/users/gold', function () {
         return view('welcome');
     });
-    Route::get('/platnuim', function () {
+    Route::get('/users/platnuim', function () {
         return view('welcome');
     });
     Route::get('/users/plans', function () {
