@@ -21,7 +21,7 @@
         <div class="row mt-3">
         <!-- Plans -->
             <div class="col-md-3 card mr-4 pt-3 rounded-0 mx-auto">
-                <h2 class="text-primary text-center mb-5 ">{{$plannes->name}}</h2><hr>
+                <h2 class="text-primary text-center mb-5 ">{{$plannes['name']}}</h2><hr>
                 <h1 class="text-dark text-center">${{$plannes->price}}</h1>
                 <p class="text-center mb-5">STARTING FROM</p>
                 <button type="submit" class="rounded btn btn-primary active mx-auto mt-3">Purchase Plan</button>
