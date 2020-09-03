@@ -47,6 +47,7 @@
             </div>
 
             <form>
+                @csrf
                 <div class="form-group">
                     <label for="">Amount</label>
                     <input type="text" class="form-control rounded-0 mb-3" value="{{$plan->price}}">
@@ -59,7 +60,7 @@
                         @endforeach
                     </select>
              
-                    <button type="submit" class="active btn btn-block btn-success"><i class="fa fa-check"></i>Comfirm Payout</button>
+                    <button type="submit" class="active btn btn-block btn-success"><i class="fa fa-check"></i>Pay</button>
                 </div>
             </form>
             </div>
