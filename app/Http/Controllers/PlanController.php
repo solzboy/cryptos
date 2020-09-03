@@ -89,7 +89,7 @@ class PlanController extends Controller
         //
     }
 
-    public function plans(Plan $plan, Request $request, $plans)
+    public function plans(Request $request, $plans)
     {
         //
         $id = Auth::id();

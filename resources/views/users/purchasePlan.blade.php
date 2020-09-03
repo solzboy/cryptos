@@ -14,7 +14,7 @@
               <li class="breadcrumb-item" aria-current="page">Purchase Plan</li>
             </ol>
 </div>
-@foreach($plannes as $key => $plan)
+@foreach($plannes as $plan)
 <!-- Main content -->
 <section class="p-5">
     <div class="container ">
