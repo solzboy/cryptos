@@ -14,7 +14,8 @@
         />
         <meta
             name="description"
-            content="Bitcoin And Crypto Currency Html5 Template"
+            content="Blue Chip Network, Providing Support To Thousands
+            Of Potential Investors All Over The World!!"
         />
         <link href="assets/images/favicon/favicon.png" rel="icon" />
 
