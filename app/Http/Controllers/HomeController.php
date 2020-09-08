@@ -39,7 +39,7 @@ class HomeController extends Controller
             $id = Auth::id();
             $user = User::find($id);
             $transactions = $user->Transactions()->limit(10)->get();
-            $totalpayment = Payment::get()->sum('amount');
+            $totalpayment = Payment::where('user_id', $id)->get()->sum('amount');
             return view('users.dashboard', compact('transactions','user','totalpayment'));
         }
     }
