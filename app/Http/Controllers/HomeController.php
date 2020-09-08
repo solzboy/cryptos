@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Payment;
 use Illuminate\Http\Request;
 use App\User;
 use App\Transaction;
@@ -38,7 +39,8 @@ class HomeController extends Controller
             $id = Auth::id();
             $user = User::find($id);
             $transactions = $user->Transactions()->limit(10)->get();
-            return view('users.dashboard', compact('transactions','user'));
+            $totalpayment = Payment::get()->sum('amount');
+            return view('users.dashboard', compact('transactions','user','totalpayment'));
         }
     }
 }

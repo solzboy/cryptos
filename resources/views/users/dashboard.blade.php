@@ -48,7 +48,7 @@
                                                   <i class="text-primary ti-arrow-up font-size-24"></i>
                                               </div>
                                               <div>
-                                                  <h3 class="my-0 text-dark font-weight-700">$0.00</h3>
+                                                  <h3 class="my-0 text-dark font-weight-700">${{$totalpayment}}</h3>
                                               </div>
                                           </div>
                                           <a href="/users/plans" class="btn btn-primary mt-30 d-block">Invest</a>
