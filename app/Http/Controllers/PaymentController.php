@@ -109,6 +109,7 @@ class PaymentController extends Controller
         $plan = $address->id;
         $payment = Payment::create([
             'amount' => $amount,
+            'user_id' => $id,
             'payment_type' => $crypto_name
         ]);
 
