@@ -9,6 +9,9 @@ use App\User;
 class Transaction extends Model
 {
     //
+    protected $fillable = [
+        'plan_id', 'payment_id', 'user_id', 'hash'
+    ];
 
     public function user()
     {

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PaymentController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -33,6 +34,8 @@ Route::get('/blue-chips-bond', function () {
 });
 Route::get('/home', 'HomeController@index')->name('home');
 
+Route::post('/users/payment_confirmation', 'PaymentController@userPayment')->name('payment.confirmation');
+Route::post('/users/confirmed', 'PaymentController@userPaymentconfirmed')->name('payment.confirmed');
 
 Route::group(['middleware' => ['role:User']], function () {
     Route::get('/users/plan/{plans}', 'PlanController@plans')->name('plans');

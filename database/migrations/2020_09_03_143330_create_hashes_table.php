@@ -15,6 +15,8 @@ class CreateHashesTable extends Migration
     {
         Schema::create('hashes', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('address');
             $table->timestamps();
         });
     }

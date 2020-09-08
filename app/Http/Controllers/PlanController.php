@@ -6,6 +6,7 @@ use App\Plan;
 use Illuminate\Http\Request;
 use App\User;
 use App\CryptoWallet;
+use App\Hash;
 use App\Transaction;
 use Illuminate\Support\Facades\Auth;
 
@@ -91,35 +92,34 @@ class PlanController extends Controller
 
     public function plans(Request $request, $plans)
     {
-        
         //
         $id = Auth::id();
         $user = User::find($id);
         if ($plans == 'basic') {
             $plan_name = 'BASIC';
-            $wallets = CryptoWallet::where('user_id', $id)->get();
+            $hashes = Hash::all();
             $plannes = Plan::where('name', $plan_name)->get();
-            return view('users.purchasePlan', compact('plannes', 'wallets'));
+            return view('users.purchasePlan', compact('plannes', 'hashes'));
         }elseif($plans == 'bronze') {
             $plan_name = 'BRONZE';
-            $wallets = CryptoWallet::where('user_id', $id)->get();
+            $hashes = Hash::all();
             $plannes = Plan::where('name', $plan_name)->get();
-             return view('users.purchasePlan', compact('plannes', 'wallets'));
+             return view('users.purchasePlan', compact('plannes', 'hashes'));
         }elseif($plans == 'silver') {
             $plan_name = 'SILVER';
-            $wallets = CryptoWallet::where('user_id', $id)->get();
+            $hashes = Hash::all();
             $plannes = Plan::where('name', $plan_name)->get();
-             return view('users.purchasePlan', compact('plannes', 'wallets'));
+             return view('users.purchasePlan', compact('plannes', 'hashes'));
         }elseif($plans == 'gold') {
             $plan_name = 'GOLD';
-            $wallets = CryptoWallet::where('user_id', $id)->get();
+            $hashes = Hash::all();
             $plannes = Plan::where('name', $plan_name)->get();
-             return view('users.purchasePlan', compact('plannes', 'wallets'));
+             return view('users.purchasePlan', compact('plannes', 'hashes'));
         }else{
             $plan_name = 'PLATNUIM';
-            $wallets = CryptoWallet::where('user_id', $id)->get();
+            $hashes = Hash::all();
             $plannes = Plan::where('name', $plan_name)->get();
-             return view('users.purchasePlan', compact('plannes', 'wallets'));
+             return view('users.purchasePlan', compact('plannes', 'hashes'));
         }
     }
 }

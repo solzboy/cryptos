@@ -21,7 +21,8 @@ class CreateTransactionsTable extends Migration
             $table->foreign('plan_id')->references('id')->on('plans')->onDelete('cascade');
             $table->unsignedBigInteger('payment_id')->unsigned();
             $table->foreign('payment_id')->references('id')->on('payments')->onDelete('cascade');
-            $table->string('status')->default('Pending');       
+            $table->string('status')->default('Pending');
+            $table->string('hash')->nullable();
             $table->timestamps();
         });
     }

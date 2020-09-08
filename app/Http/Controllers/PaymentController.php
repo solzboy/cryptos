@@ -2,8 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Hash;
 use App\Payment;
+use App\Plan;
+use App\Transaction;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class PaymentController extends Controller
 {
@@ -15,6 +19,7 @@ class PaymentController extends Controller
     public function index()
     {
         //
+
         
     }
 
@@ -82,6 +87,39 @@ class PaymentController extends Controller
     public function destroy(Payment $payment)
     {
         //
+    }
+    public function userPayment(Request $request)
+    {
+        //
+        $amount = $request->amount;
+        $crypto_name = $request->name;
+        $crypto_plan = $request->plan;
+        $address = Hash::where('name', $crypto_name)->get('address')->first();
+        
+        return view('users.confirmPayment', compact('amount', 'crypto_name', 'crypto_plan', 'address'));
+    }
+    public function userPaymentconfirmed(Request $request)
+    {
+        $id = Auth::id();
+        $amount = $request->amount;
+        $crypto_name = $request->name;
+        $crypto_plan = $request->plan;
+        $hash = $request->transaction_hash;
+        $address = Plan::where('name', $crypto_plan)->get()->first();
+        $plan = $address->id;
+        $payment = Payment::create([
+            'amount' => $amount,
+            'payment_type' => $crypto_name
+        ]);
+
+        $transaction = Transaction::create([
+            'user_id' => $id,
+            'plan_id' => $plan,
+            'payment_id' => $payment->id,
+            'hash'      => $hash
+        ]);
+        
+        return  redirect()->route('transaction.users');
     }
   
 }

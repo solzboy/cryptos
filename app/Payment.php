@@ -8,6 +8,6 @@ class Payment extends Model
 {
     //
     protected $fillable = [
-        'user_id', 'name', 'address',
+        'payment_type', 'amount', 'user_id',
     ];
 }

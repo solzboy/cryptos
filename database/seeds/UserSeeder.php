@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
 use App\User;
 use App\Plan;
+use App\Hash as hashcontroller;
 
 class UserSeeder extends Seeder
 {
@@ -56,6 +57,23 @@ class UserSeeder extends Seeder
             'name' => 'PLATNUIM',
             'price' => 30000.00,
             'weekly_payout' => 6000.00
+        ]);
+
+        $hash = hashcontroller::create([
+            'name' => 'Bitcoin',
+            'address' => 'gyadgasjhdgasjdgasdjasgdjah',
+        ]);
+        $hash1 = hashcontroller::create([
+            'name' => 'Ripple',
+            'address' => 'gyadgasjhdgasjdgasdjasgdjah',
+        ]);
+        $hash2 = hashcontroller::create([
+            'name' => 'Tether',
+            'address' => 'gyadgasjhdgasjdgasdjasgdjah',
+        ]);
+        $hash3 = hashcontroller::create([
+            'name' => 'Ethereum',
+            'address' => 'gyadgasjhdgasjdgasdjasgdjah',
         ]);
     }
 }

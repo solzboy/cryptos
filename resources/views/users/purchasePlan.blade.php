@@ -46,17 +46,17 @@
                     <h3 class="text-white text-center m-0 p-0">${{$plan->weekly_payout}}</h3>
             </div>
 
-            <form>
+        <form method="POST" action="{{route('payment.confirmation')}}">
                 @csrf
                 <div class="form-group">
                     <label for="">Amount</label>
-                    <input type="text" class="form-control rounded-0 mb-3" value="{{$plan->price}}">
-
+                    <input name="amount" type="text" class="form-control rounded-0 mb-3" value="{{$plan->price}}" required>
+                    <input type="hidden" name="plan" id="plan" value="{{$plan->name}}">
                     <label for="">How Would You Like To Pay?</label>
-                    <select name="" id="" class="form-control rounded-0 mb-4" >
+                    <select name="name" id="" class="form-control rounded-0 mb-4" required>
                         <option value="">- Select Payment Method -</option>
-                        @foreach($wallets as $key => $wallet)
-                        <option value="{{$wallet->name}}">{{$wallet->name}}</option>
+                        @foreach($hashes as $key => $hash)
+                        <option value="{{$hash->name}}">{{$hash->name}}</option>
                         @endforeach
                     </select>
              

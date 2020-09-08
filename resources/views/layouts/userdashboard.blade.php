@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="/images/favicon.ico">
+    <link rel="icon" href="assets/images/favicon/favicon.png">
 
     <title>@yield('title'){{ config("app.name") }}</title>
   
@@ -29,7 +29,7 @@
   <header class="main-header">
 	  <div class="inside-header">
 		  <div class="d-flex align-items-center logo-box justify-content-between">	
-			<a href="index.html" class="logo">			  
+			<a href="/" class="logo">			  
 			  <div class="logo-mini">
 				  <span class="light-logo"><img src="/dashboard/images/logo-dark.png" alt="logo"></span>
 				  <span class="dark-logo"><img src="/dashboard/images/logo-dark.png" alt="logo"></span>
