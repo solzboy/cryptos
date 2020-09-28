@@ -1,19 +1,5 @@
-@extends('layouts/admin') @section('title', 'Create User - ') 
-
+@extends('layouts.admin')@section('title', 'Create Transaction - ') 
 @section('content')
-
-<div class="content-wrapper">
-    <div class="container-full">
-      <!-- Content Header (Page header) -->
-      <div class="content-header">
-          <h3>
-             Create User
-            </h3>
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="/home"><i class="fa fa-dashboard"></i>Home</a></li>
-              <li class="breadcrumb-item" aria-current="page">Create User</li>
-            </ol>
-      </div>
 
 <div class="card">
     <div class="card-header">

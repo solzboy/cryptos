@@ -15,7 +15,8 @@ class HashController extends Controller
     public function index()
     {
         //
-        
+        $hashes = Hash::all();
+        return view('admin.hash.index', compact('hashes'));
     }
 
     /**

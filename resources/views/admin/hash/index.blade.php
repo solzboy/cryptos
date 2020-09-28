@@ -1,4 +1,4 @@
-@extends('layouts/admin') @section('title', 'Plans - ') @section('styles')
+@extends('layouts/admin') @section('title', 'Hashes - ') @section('styles')
 <link
     rel="stylesheet"
     href="/dashboard/assets/vendor_components/datatable/datatables.min.css"
@@ -14,7 +14,7 @@
                 <li class="breadcrumb-item">
                     <a href="/home"><i class="fa fa-dashboard"></i>Home</a>
                 </li>
-                <li class="breadcrumb-item" aria-current="page">Users</li>
+                <li class="breadcrumb-item" aria-current="page">Hash</li>
             </ol>
         </div>
 
@@ -23,7 +23,7 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 card mr-4 p-3">
                         <h3><i class="fa fa-book"></i>All Users</h3>
-                        <p>All my Saved Crypto Wallet</p>
+                        <p>All Hash Wallet Address</p>
                         <hr />
                         <div class="box-body">
                             <div class="table-responsive">
@@ -34,21 +34,19 @@
                                     <thead>
                                         <tr>
                                             <th>S/N</th>
-                                            <th>Plan Name</th>
-                                            <th>Plan Price</th>
-                                            <th>Plan weekly payout</th>
+                                            <th>Hash Name</th>
+                                            <th>Hash Address</th>
                                             <th>DATE REGISTERED</th>
                                             <th>ACTIONS</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        @foreach($Plans as $key => $wallet)
+                                        @foreach($hashes as $key => $hash)
                                         <tr>
-                                            <td>{{$wallet->id}}</td>
-                                            <td>{{$wallet->name}}</td>
-                                            <td>{{$wallet->price}}</td>
-                                            <td>{{$wallet->weekly_payout}}</td>
-                                            <td>{{$wallet->created_at}}</td>
+                                            <td>{{$hash->id}}</td>
+                                            <td>{{$hash->name}}</td>
+                                            <td>{{$hash->address}}</td>
+                                            <td>{{$hash->created_at}}</td>
                                             <td>
                                                 <a
                                                     href=""
@@ -61,7 +59,7 @@
                                                     >Edit</a
                                                 >
                                                 <form
-                                                    action="{{ route('crypto_wallet.destroy', $wallet->id) }}"
+                                                    action="{{ route('hash.destroy', $hash->id) }}"
                                                     method="POST"
                                                     onsubmit="return confirm('Are You Sure');"
                                                     style="

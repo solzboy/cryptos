@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Transaction;
 use App\Transcation;
 use Illuminate\Http\Request;
 use App\User;
@@ -17,6 +18,8 @@ class TransactionController extends Controller
     public function index()
     {
         //
+        $transactions = Transaction::all();
+        return view('admin.transaction.index', compact('transactions'));
     }
 
     /**

@@ -30,8 +30,10 @@ class HomeController extends Controller
     {
         // if auth is admin
         if (auth()->user()->hasRole('Admin')) {
+            $transactions = Transaction::orderBy('id', 'desc')->take(10)->get();
+            $users = User::role('User')->orderBy('id', 'desc')->take(10)->get();
             
-            return view('admin.dashboard');
+            return view('admin.dashboard', compact('transactions','users'));
         }
         // if auth is user
         else {

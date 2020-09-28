@@ -65,7 +65,10 @@ Route::group(['middleware' => ['role:Admin']], function () {
     Route::get('/platnuim', function () {
         return view('welcome');
     });
-    Route::resource('transcations', 'TransactionController');
+    Route::resource('/admin/transcations', 'TransactionController');
+    Route::resource('/admin/users', 'UsersController');
+    Route::resource('/admin/plans', 'PlanController');
+    Route::resource('/admin/hash', 'HashController');
 
 });
 
