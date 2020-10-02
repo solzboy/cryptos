@@ -125,7 +125,7 @@
     <div class="row mt-3 pt-3 pb-3">
         <div class="col-12 text-center text-white mt-0">
             <h6 class="hm">Blue Chips Network</h6>
-            <h2 class="text-white display-3">Mission & Vission</h2>
+            <h2 class="text-white display-3">Mission & Vision</h2>
 
         </div>
         <div class="container  d-flex mb-0 pb-3 pr-5 ">

@@ -34,7 +34,7 @@
     <div class="container ">
         <div class="row">
             <div class="col-md-6 order-md-6">
-                <img class="card-img-top " src="assets/images/icons/DVC-icon-3.png" alt="FirstImg"> 
+                <img class="card-img-top " src="/assets/images/icons/DVC-icon-3.png" alt="FirstImg"> 
             </div>
 
             <div class="col-md-6 order-1">
