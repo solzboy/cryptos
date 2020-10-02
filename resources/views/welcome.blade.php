@@ -431,7 +431,7 @@
                     </p>
                 </div>
                 <a
-                    href="#"
+                    href="/about-us"
                     class="btn btn--primary btn--rounded mb-50-sm mb-50-xs"
                     >More About Us</a
                 >
