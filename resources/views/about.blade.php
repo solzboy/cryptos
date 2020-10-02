@@ -97,7 +97,7 @@
             <div class="col-sm-12 col-md-12 col-lg-6 bg-white p-5">
                 <h4 class="display-4 text-secondary font-weight-light">OUR TEAM</h4>
                 <p class="lead text-secondary font-weight-normal lead">The founders of Blue Chips Network are serial entrepreneurs with an extensive background in venture capital, private equity and angel investing.</p>
-                <img src="assets/images/team/grid/6.jpg" alt="" class="card d-flex mx-auto">
+                <img src="assets/images/team/grid/9.png" alt="" class=" w-75 d-flex mx-auto img-fluid">
             </div>
             
             <div class="col-sm-12 col-md-12 col-lg-6 p-5 d-flex my-auto">
@@ -360,7 +360,7 @@
 
 
 <!-- Blog Grid
-======================================= -->
+======================================= 
 <section id="blog" class="blog blog-grid bg-gray pb-40 bg-gradient MV">
     <div class="container">
         <div class="row clearfix">
@@ -370,10 +370,10 @@
                          <h2 class="text-white display-3">MEDIA ROOM</h2>
                 </div>
             </div>
-            <!-- .col-lg-6 end -->
+      
         </div>
         <div class="row">
-            <!-- Blog Entry #1 -->
+       
             <div class="col-sm-12 col-md-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
                 <div class="blog-entry">
                     <div class="entry--img">
@@ -382,7 +382,7 @@
                             <div class="entry--overlay"></div>
                         </a>
                     </div>
-                    <!-- .entry-img end -->
+                
                     <div class="entry--content bg-green">
                         <div class="entry--date text-white text-white" >Apr 11, 2018</div>
                         <div class="entry--meta">
@@ -395,13 +395,13 @@
                             The Bill and Melinda Gates Foundation are introducing an open-source software to facilitate the creation of payment platforms for developing economies...
                         </div>
                     </div>
-                    <!-- .entry-content end -->
+                  
                 </div>
-                <!-- .blog-entry end -->
+             
             </div>
-            <!-- .col-lg-4 end -->
+         
 
-            <!-- Blog Entry #2 -->
+          
             <div class="col-sm-12 col-md-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
                 <div class="blog-entry">
                     <div class="entry--img">
@@ -410,7 +410,7 @@
                             <div class="entry--overlay"> </div>
                         </a>
                     </div>
-                    <!-- .entry-img end -->
+                  
                     <div class="entry--content bg-green">
                         <div class="entry--date text-white">Apr 12, 2018</div>
                         <div class="entry--meta">
@@ -423,13 +423,11 @@
                             Despite the almost libertarian premise and a noble goal of complete decentralization, realistically, blockchain technology will not be able to avoid at least some level..
                         </div>
                     </div>
-                    <!-- .entry-content end -->
+                  
                 </div>
-                <!-- .blog-entry end -->
+            
             </div>
-            <!-- .col-lg-4 end -->
-
-            <!-- Blog Entry #3 -->
+            
             <div class="col-sm-12 col-md-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
                 <div class="blog-entry">
                     <div class="entry--img">
@@ -438,7 +436,7 @@
                             <div class="entry--overlay"> </div>
                         </a>
                     </div>
-                    <!-- .entry-img end -->
+                   
                     <div class="entry--content bg-green ">
                         <div class="entry--date text-white">Apr 11, 2018</div>
                         <div class="entry--meta text-white">
@@ -451,17 +449,17 @@
                             Hong Kong is embracing blockchain technology search for a new business identity and opportunities. The city has a household name in shipping and finance...
                         </div>
                     </div>
-                    <!-- .entry-content end -->
+               
                 </div>
-                <!-- .blog-entry end -->
+              
             </div>
-            <!-- .col-lg-4 end -->
+     
         </div>
-        <!-- .row end -->
+  
     </div>
-    <!-- .container end -->
+ 
 </section>
-<!-- #blog end -->
+ -->
 
 <style>
     .bg-green {

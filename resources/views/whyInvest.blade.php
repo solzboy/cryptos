@@ -244,7 +244,7 @@
 
 
 <!-- Blog Grid
-======================================= -->
+======================================= 
 <section id="blog" class="blog blog-grid bg-gray pb-40">
     <div class="container">
         <div class="row clearfix">
@@ -255,10 +255,10 @@
                     <p class="heading--desc mb-0">Follow our latest news and thoughts which focuses exclusively on investment strategy guide, blockchain tech, crypto-trading and mining.</p>
                 </div>
             </div>
-            <!-- .col-lg-6 end -->
+         
         </div>
         <div class="row">
-            <!-- Blog Entry #1 -->
+          
             <div class="col-sm-12 col-md-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
                 <div class="blog-entry">
                     <div class="entry--img">
@@ -267,7 +267,7 @@
                             <div class="entry--overlay"></div>
                         </a>
                     </div>
-                    <!-- .entry-img end -->
+               
                     <div class="entry--content">
                         <div class="entry--date">Apr 11, 2018</div>
                         <div class="entry--meta">
@@ -280,13 +280,12 @@
                             The Bill and Melinda Gates Foundation are introducing an open-source software to facilitate the creation of payment platforms for developing economies...
                         </div>
                     </div>
-                    <!-- .entry-content end -->
+                  
                 </div>
-                <!-- .blog-entry end -->
+           
             </div>
-            <!-- .col-lg-4 end -->
-
-            <!-- Blog Entry #2 -->
+         
+          
             <div class="col-sm-12 col-md-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
                 <div class="blog-entry">
                     <div class="entry--img">
@@ -295,7 +294,7 @@
                             <div class="entry--overlay"> </div>
                         </a>
                     </div>
-                    <!-- .entry-img end -->
+             
                     <div class="entry--content">
                         <div class="entry--date">Apr 12, 2018</div>
                         <div class="entry--meta">
@@ -308,13 +307,11 @@
                             Despite the almost libertarian premise and a noble goal of complete decentralization, realistically, blockchain technology will not be able to avoid at least some level..
                         </div>
                     </div>
-                    <!-- .entry-content end -->
+              
                 </div>
-                <!-- .blog-entry end -->
+             
             </div>
-            <!-- .col-lg-4 end -->
-
-            <!-- Blog Entry #3 -->
+      
             <div class="col-sm-12 col-md-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
                 <div class="blog-entry">
                     <div class="entry--img">
@@ -323,7 +320,7 @@
                             <div class="entry--overlay"> </div>
                         </a>
                     </div>
-                    <!-- .entry-img end -->
+                  
                     <div class="entry--content">
                         <div class="entry--date">Apr 11, 2018</div>
                         <div class="entry--meta">
@@ -336,17 +333,17 @@
                             Hong Kong is embracing blockchain technology search for a new business identity and opportunities. The city has a household name in shipping and finance...
                         </div>
                     </div>
-                    <!-- .entry-content end -->
+                  
                 </div>
-                <!-- .blog-entry end -->
+              
             </div>
-            <!-- .col-lg-4 end -->
+        
         </div>
-        <!-- .row end -->
+     
     </div>
-    <!-- .container end -->
+ 
 </section>
-<!-- #blog end -->
+ #blog end -->
 <style>
     .body{
         position: relative;

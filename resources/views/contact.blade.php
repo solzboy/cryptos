@@ -4,7 +4,7 @@
 
 <!-- Page Title #1
 ============================================= -->
-<section id="page-title" class="page-title  bg-overlay bg-overlay-dark bg-green bg-parallax mb-0">
+ <section id="page-title" class="page-title  bg-overlay bg-overlay-dark bg-green bg-parallax mb-0">
 <div class="bg-section ">
         <img src="assets/images/page-titles/17.jpg" alt="Background" />
     </div>
@@ -27,7 +27,7 @@
         </div><!-- .row end -->
     </div><!-- .container end -->
 </section><!-- #page-title end -->
-<!-- Page Title #1 end
+<!-- Page Title #1 end --}}
 ============================================= -->
 <!-- start main -->
 <main role="main">
