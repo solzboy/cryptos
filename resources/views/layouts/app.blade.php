@@ -134,7 +134,7 @@
                                         </li>
                                         <li>
                                             <a href="/blue-chips-bond"
-                                                >Blue Chips Network Bond</a
+                                                >Blue Chips Bond</a
                                             >
                                         </li>
                                     </ul>
