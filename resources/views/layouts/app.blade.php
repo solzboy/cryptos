@@ -134,7 +134,7 @@
                                         </li>
                                         <li>
                                             <a href="/blue-chips-bond"
-                                                >invest with us</a
+                                                >Blue Chips Network Bond</a
                                             >
                                         </li>
                                     </ul>
@@ -333,11 +333,8 @@
                         <div class="row">
                             <div class="col-sm-12 col-md-6 col-lg-6">
                                 <div class="footer--copyright">
-                                    <span>© 2018, With Love by</span>
-                                    <a
-                                        href="https://themeforest.net/user/7oroof/portfolio?ref=zytheme"
-                                        >7oroof.com</a
-                                    >
+                                    <span>© 2020, Blue Chip Network</span>
+                                    
                                 </div>
                             </div>
                             <div class="col-sm-12 col-md-6 col-lg-6">
